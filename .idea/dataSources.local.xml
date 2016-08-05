@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - FTSE350@localhost" uuid="34dd7ad7-28f4-4e5f-a741-83d23b3ded2d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>FTSE350.pg_catalog FTSE350.public</schema-pattern>
+      <default-schemas>FTSE350.public</default-schemas>
+    </data-source>
+  </component>
+</project>

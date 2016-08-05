@@ -1,0 +1,216 @@
+define(function() {
+	// var source = {
+	// 	"stocks": [
+	// 		"source",
+	// 		"d",
+	// 		"target"
+	// 	],
+	// 	"data": [
+	// 		[
+	// 			"3in",
+	// 			"INTERACTS",
+	// 			"aa"
+	// 		],
+	// 		[
+	// 			"fcss",
+	// 			"STRONGLY_INTERACTS",
+	// 			"aa"
+	// 		]
+	// 	]
+	// };
+
+
+	var source = {
+		"stocks": [
+			"3In",
+			"Aa",
+			"Aal",
+			"Abf",
+			"Aca",
+			"Adm",
+			"Adn",
+			"Agk",
+			"Agr",
+			"Aht",
+			"Ald"
+		],
+		"data": [
+			{
+				"x": "Aca",
+				"y": "3In",
+				"z": "Aa"
+			},
+			{
+				"x": "Aca",
+				"y": "Agr",
+				"z": "Aa"
+			},
+			{
+				"x": "Aca",
+				"y": "Aht",
+				"z": "Aa"
+			},
+			{
+				"x": "Adn",
+				"y": "Aal",
+				"z": "Agk"
+			},
+			{
+				"x": "Agk",
+				"y": "3In",
+				"z": "Aa"
+			},
+			{
+				"x": "Agr",
+				"y": "Aa",
+				"z": "3In"
+			},
+			{
+				"x": "Agr",
+				"y": "Abf",
+				"z": "Aht"
+			},
+			{
+				"x": "Agr",
+				"y": "Aca",
+				"z": "Aa"
+			},
+			{
+				"x": "Aht",
+				"y": "Aca",
+				"z": "Aa"
+			},
+			{
+				"x": "3In",
+				"y": "Aca",
+				"z": "Aa"
+			},
+			{
+				"x": "3In",
+				"y": "Agk",
+				"z": "Aa"
+			},
+			{
+				"x": "Aa",
+				"y": "Abf",
+				"z": "Aht"
+			},
+			{
+				"x": "Aa",
+				"y": "Agr",
+				"z": "3In"
+			},
+			{
+				"x": "Aal",
+				"y": "Adn",
+				"z": "Agk"
+			},
+			{
+				"x": "Abf",
+				"y": "Aa",
+				"z": "Aht"
+			},
+			{
+				"x": "Abf",
+				"y": "Agr",
+				"z": "Aht"
+			}
+		],
+		"result": "true"
+	};
+
+	var stockArray;
+	var option;
+	var myChart;
+	var finalData;
+
+	var setArgs = function(obj){
+		option = obj["option"];
+		myChart = obj["chart"];
+	}
+
+	var getArgs = function(){
+		return {
+			"option": option,
+			"chart": myChart
+		}
+	}
+
+	var getSource = function () {
+		$.ajax({
+			type : "POST",
+			crossDomain: true,
+			url : "http://localhost:8080/get/?stocks=all",
+			success : function (data) {
+				finalData = data;
+				setChartData();
+			},
+			error: function(){
+				finalData = source;
+				setChartData();
+			}
+		});
+
+		// if(stockArray){
+
+		// }else{
+		// 	myChart.showLoading();
+		// }
+
+		return this;
+	};
+
+	var parseToEchart = function (){
+		var tem = finalData;
+
+		if(tem){
+			var data = tem["data"];
+
+			var seriesCata = [];
+			var seriesNode = [];
+			var seriesLink = [];
+			var seriesLegend = tem["stocks"];
+
+			for (var i = 0; i < seriesLegend.length; i++) {
+				var n = seriesLegend[i];
+				var cata = {"name": n};
+				var node = {"category": i, "name": n};
+				seriesCata.push(cata);
+				seriesNode.push(node);
+			};
+
+			for (var j = 0; j < data.length; j++) {
+				var link = {source: null, target: null, weight: 25, name: null, itemStyle: {normal: {color: "#5795FF", width: 2 } } };
+				var x = data[j]["x"];
+				var y = data[j]["y"];
+				var z = data[j]["z"];
+
+				link["source"] = z;
+				link["target"] = x;
+				seriesLink.push(link);
+				link["target"] = x;
+				seriesLink.push(link);
+
+			}
+			option["legend"]["data"] = seriesLegend;
+			option["series"][0]["categories"] = seriesCata;
+			option["series"][0]["nodes"] = seriesNode;
+			option["series"][0]["links"] = seriesLink;
+			return option;
+		}else{
+			console.log("No Data");
+			return null;
+		}
+	};
+
+	var setChartData = function(){
+		parseToEchart();
+		myChart.setOption(option);
+	};
+
+	var textGenerator = function(){
+
+	}
+
+	return {"setArgs": setArgs, "getSource": getSource, "getArgs": getArgs, "textGenerator": textGenerator};
+})

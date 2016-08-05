@@ -1,0 +1,271 @@
+// Set Path
+require.config({
+	paths: {
+		echarts: './js/echarts',
+		conf: './js/echarts/config',
+		src: './js/source'
+	}
+});
+// Use plugin
+require(
+	[
+		'echarts',
+		'echarts/chart/force', // Force graph
+		'conf',
+		'src'
+	],
+	function (ec) {
+		var pctn_graph = ec.init(document.getElementById('pctn'));
+		var pctn_source = require('src');
+		var optionNew = {
+			title: {
+				text: 'PCTN',
+				x:'right',
+				y:'bottom'
+			},
+			tooltip: {
+				trigger: 'item',
+				formatter: '{a} {b}'
+			},
+			toolbox: {
+				show: true,
+				feature: {
+					saveAsImage: {show: true, title : 'Save as image'}
+				}
+			},
+			legend: {
+				x: 'left',
+				data:[],
+				textStyle: {
+					fontSize: 14
+				}
+			},
+			series: [
+				{
+					type: 'force',
+					categories: [],
+					linkSymbol: 'arrow',
+					itemStyle: {
+						normal: {
+							label: {
+								show: true,
+								position: 'bottom',
+								textStyle: {
+									color: '#000',
+									fontSize: 14,
+									fontWeight: 'bold',
+								}
+							},
+							nodeStyle: {
+								brushType: 'both',
+								borderColor: 'rgba(255,215,0,0.4)',
+								borderWidth: 2
+							},
+							linkStyle: {width: 2}
+						}
+					},
+					minRadius: 15,
+					maxRadius: 25,
+					gravity: 1.1,
+					scaling: 1.1,
+					roam: 'true',
+					nodes:[],
+					links: []
+				}
+			]
+		};
+
+		var ecConfig = require('conf');
+
+		// var stocks = ["3in", "aa", "fcss"];
+
+		//if(drugs){
+		//	drugs = drugs.split(",");
+		//}
+
+		pctn_source.setArgs({
+			"option": optionNew,
+			"stocks": stocks,
+			"chart": pctn_graph
+		});
+
+		pctn_source.getSource();
+
+		pctn_graph.on(ecConfig.EVENT.CLICK, function(param1){
+			focus(param1, pctn_source, pctn_graph);
+		});
+
+		pctn_graph.on(ecConfig.EVENT.LEGEND_SELECTED, function (param){
+			var legendObj = pctn_graph.component.legend.getSelectedMap();
+			var legends = Object.keys(legendObj);
+			var nameArr = [];
+			for (var i = 0; i < legends.length; i++) {
+				if(!legendObj[legends[i]]){
+					nameArr.push(legends[i]);
+				}
+			}
+		});
+
+		window.onresize = function() {
+			pctn_graph.resize();
+		};
+	}
+);
+
+require(
+	[
+		'echarts',
+		'echarts/chart/force', // Force graph
+		'conf',
+		'src'
+	],
+	function (ec) {
+		var pcpg_graph = ec.init(document.getElementById('pcpg'));
+		var pcpg_source = require('src');
+
+		var optionNew = {
+			title: {
+				text: 'PCPG',
+				x:'right',
+				y:'bottom'
+			},
+			tooltip: {
+				trigger: 'item',
+				formatter: '{a} {b}'
+			},
+			toolbox: {
+				show: true,
+				feature: {
+					saveAsImage: {show: true, title : 'Save as image'}
+				}
+			},
+			legend: {
+				x: 'left',
+				data:[],
+				textStyle: {
+					fontSize: 14
+				}
+			},
+			series: [
+				{
+					type: 'force',
+					categories: [],
+					linkSymbol: 'arrow',
+					itemStyle: {
+						normal: {
+							label: {
+								show: true,
+								position: 'bottom',
+								textStyle: {
+									color: '#000',
+									fontSize: 14,
+									fontWeight: 'bold',
+								}
+							},
+							nodeStyle: {
+								brushType: 'both',
+								borderColor: 'rgba(255,215,0,0.4)',
+								borderWidth: 2
+							},
+							linkStyle: {width: 2}
+						}
+					},
+					minRadius: 15,
+					maxRadius: 25,
+					gravity: 1.1,
+					scaling: 1.1,
+					roam: 'true',
+					nodes:[],
+					links: []
+				}
+			]
+		};
+
+		var ecConfig = require('conf');
+
+		var drugs = getParameterByName("drugs");
+
+		if(drugs){
+			drugs = drugs.split(",");
+		}
+
+		pcpg_source.setArgs({
+			"option": optionNew,
+			"drugs": drugs,
+			"chart": pcpg_graph
+		});
+
+		pcpg_source.getSource();
+
+		pcpg_graph.on(ecConfig.EVENT.CLICK, function(param2){
+			focus(param2, pcpg_source, pcpg_graph);
+		});
+
+		pcpg_graph.on(ecConfig.EVENT.LEGEND_SELECTED, function (param){
+			var legendObj = pcpg_graph.component.legend.getSelectedMap();
+			var legends = Object.keys(legendObj);
+			var nameArr = [];
+			for (var i = 0; i < legends.length; i++) {
+				if(!legendObj[legends[i]]){
+					nameArr.push(legends[i]);
+				}
+			}
+		});
+
+		window.onresize = function() {
+			pcpg_graph.resize();
+		};
+	}
+);
+
+var focus = function(param, source, graph) {
+	var option = source.getArgs()["option"];
+
+	var data = param.data;
+	var links = option.series[0].links;
+	var nodes = option.series[0].nodes;
+	if (data.source !== undefined && data.target !== undefined ) { // Line
+		var sourceNode = nodes.filter(function (n) {
+			return n.name == data.source;
+		})[0];
+		var targetNode = nodes.filter(function (n) {
+			return n.name == data.target;
+		})[0];
+		console.log(targetNode);
+		displayControler({type:"line", target:targetNode.name, source: sourceNode.name});
+	} else { // Point
+		var legendObj = graph.component.legend.getSelectedMap();
+		var legends = Object.keys(legendObj);
+		var nameArr = [];
+		for (var i = 0; i < legends.length; i++) {
+			if(!legendObj[legends[i]]){
+				nameArr.push(legends[i]);
+			}
+		}
+		displayControler({type:"node", name:data.name, names:nameArr});
+	}
+};
+
+function getParameterByName(name, url) {
+	if (!url) url = window.location.href;
+	name = name.replace(/[\[\]]/g, "\\$&");
+	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+		results = regex.exec(url);
+	if (!results) return null;
+	if (!results[2]) return '';
+	return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+//
+function displayControler(obj){
+
+}
+
+function addDrugToTheList() {
+
+	var drugNames = getParameterByName("drugs");
+	var desName = "newMain.html";
+	if (drugNames) {
+		location.href = desName + "?returnToAddDrugName=" + drugNames;
+	}
+}

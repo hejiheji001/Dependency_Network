@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Dependency_Network:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Dependency_Network_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Dependency_Network/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="Dependency_Network:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+      </element>
+    </root>
+  </artifact>
+</component>

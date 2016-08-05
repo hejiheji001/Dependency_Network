@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dependency Network</title>
+	<script src="./js/jquery/jquery.min.js"></script>
+	<link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/bootstrap/bootstrap-toggle.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="./js/bootstrap/bootstrap.min.js"></script>
+	<script src="./js/bootstrap/bootstrap-toggle.min.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+	<div class="container-fluid">
+		<div id="header">
+			<div class="row">
+				<div class=".col-md-12">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+										data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="#">Dependency Network</a>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+								</ul>
+								<ul class="nav navbar-nav navbar-right">
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<!--<div class="text-center alert alert-success alert-dismissible fade in __web-inspector-hide-shortcut__" role="alert" style="position: absolute; top: 10px; left: calc(50% - 220px); width: 440px; display:none" id="notifier">-->
+					<!--Filters <strong id="applyType"></strong> apply to diagram-->
+					<!--</div>-->
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<!--<div class="row">-->
+			<!--<div class="col-md-6 filter" id="mainFilter" style="padding:0;">-->
+			<!--<ul class="nav nav-pills nav-justified">-->
+			<!--<li role="filter" id="All" class="active"><a href="#">All</a></li>-->
+			<!--<li role="filter"><a href="#">Severe</a></li>-->
+			<!--<li role="filter"><a href="#">Strong</a></li>-->
+			<!--<li role="filter"><a href="#">Weak</a></li>-->
+			<!--<li role="filter" id="Custom"><a href="#">Custom</a></li>-->
+			<!--</ul>-->
+			<!--<p></p>-->
+			<!--</div>-->
+			<!--<div class="col-md-6 filter hide" id="extraFilter">-->
+			<!--<ul class="nav nav-pills nav-justified">-->
+			<!--<li class="dropdown" role="subFilter" id="drug" class="active">-->
+			<!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Drug<span class="caret"></span></a>-->
+			<!--<ul class="dropdown-menu"></ul>-->
+			<!--</li>-->
+			<!--<li class="dropdown" role="subFilter" id="nature">-->
+			<!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nature<span class="caret"></span></a>-->
+			<!--<ul class="dropdown-menu"></ul>-->
+			<!--</li>-->
+			<!--<li class="dropdown" role="subFilter" id="sideeffect">-->
+			<!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Side effect<span class="caret"></span></a>-->
+			<!--<ul class="dropdown-menu"></ul>-->
+			<!--</li>-->
+			<!--<li class="dropdown" role="subFilter" id="probability">-->
+			<!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Probability<span class="caret"></span></a>-->
+			<!--<ul class="dropdown-menu"></ul>-->
+			<!--</li>-->
+			<!--</ul>-->
+			<!--<p></p>-->
+			<!--</div>-->
+			<!--</div>-->
+			<div class="row">
+				<div class="col-md-12" id="pctn_graph">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Partial Correlation Threshold Network
+								<span class="badge">
+								    <a href="#" id="pctn_hint" data-toggle="popover" data-html="true">?</a>
+								</span>
+								<span style="position: absolute; right: 20px; top:5px">
+								<!--Enable filters on graph:-->
+									<input class="visual" data="pctn" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
+									<input class="legend" data="pctn" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
+									<input class="flscn" data="pctn_graph" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
+								</span>
+							</h3>
+						</div>
+						<div class="panel-body graph" id="pctn">
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="row">
+				<div class="col-md-12" id="pcpg_graph">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Partial Correlation Planar Graph
+								<span style="position: absolute; right: 20px; top:5px">
+								<!--Enable filters on graph:-->
+									<!-- <input class="visual" data="pcpg" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success"> -->
+									<input class="legend" data="pcpg" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
+									<input class="flscn" data="pcpg_graph" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
+								</span>
+							</h3>
+						</div>
+						<div class="panel-body graph" id="pcpg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			</div>
+			<div id="footer" class="text-center">
+				<div id="hr">
+					<hr>
+				</div>
+				<div class="copyright" id="copyright">
+					&copy; 2016 <a href="https://github.com/hejiheji001/" target="_blank">Ji He</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/echarts/echarts_full.js"></script>
+	<script src="./js/cytoscape.js/cytoscape.js"></script>
+	<script src="./js/main.js"></script>
+</div>
+</body>

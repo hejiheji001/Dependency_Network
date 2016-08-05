@@ -1,0 +1,5 @@
+<root>
+  <item name='com.oracle.javafx.jmx.json.JSONWriter com.oracle.javafx.jmx.json.JSONWriter arrayValue(java.lang.Object)'>
+    <annotation name='org.jetbrains.annotations.NotNull'/>
+  </item>
+</root>

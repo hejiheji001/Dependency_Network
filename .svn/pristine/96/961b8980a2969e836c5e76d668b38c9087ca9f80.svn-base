@@ -1,0 +1,117 @@
+package main;
+
+import Entities.Entity_Pctn;
+import com.oracle.javafx.jmx.json.JSONFactory;
+import com.oracle.javafx.jmx.json.JSONWriter;
+import util.GraphGenerator;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.stream.Collectors;
+
+/**
+ * Created by FireAwayH on 12/07/2016.
+ */
+public class MainServlet extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        String path = request.getRequestURI();
+        switch (path){
+            case "/save":
+                break;
+        }
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        String query = request.getQueryString();
+        String res = "";
+
+        JSONWriter jw = JSONFactory.instance().makeWriter(response.getWriter());
+        Map<String, Object> network = new TreeMap<>();
+        List<Entity_Pctn> fullPCTN = GraphGenerator.getPCTN();
+
+
+        jw.startObject();
+
+        if(query != null) {
+            try {
+                String[] q = query.split("=");
+                String method = q[0];
+                String type = q[1];
+                res = "true";
+
+                if(method.equalsIgnoreCase("stocks")) {
+                    switch (type) {
+                        case "all":
+                            jw.startArray("stocks");
+
+                            List stockList = Arrays.asList(GraphGenerator.stocks);
+                            stockList.forEach(o -> {
+                                try {
+                                    jw.arrayValue(o);
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            });
+
+                            jw.endArray();
+
+                            jw.startArray("data");
+
+                            List<Entity_Pctn> r = (List<Entity_Pctn>)removeNInStkLst(fullPCTN, stockList);
+
+                            r.stream().forEach(e -> {
+                                network.put("z", e.getSource());
+                                network.put("x", e.getTargetX());
+                                network.put("y", e.getTargetY());
+                                try {
+                                    jw.writeObject(network);
+                                } catch (IOException e1) {
+                                    e1.printStackTrace();
+                                }
+                            });
+
+                            break;
+                    }
+                }
+            }catch (Exception e){
+                res = e.getMessage();
+                e.printStackTrace();
+                network.put("nodata", "null");
+            }
+        }
+//        // Set JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8 -Dsun.jnu.encoding=UTF8" in catalina.sh line 249
+        jw.endArray();
+        jw.objectValue("result", res);
+        jw.endObject();
+        jw.flush();
+        jw.close();
+    }
+
+    /* Reomve items from removeFrom where the item's properties are not in whatToRemove
+     * You must override items inside removeFrom equals whatToRemove
+     */
+    private List<?> removeNInStkLst(List<?> removeFrom, List<?> whatToRemove) {
+        return removeFrom.stream().filter(e -> e.equals(whatToRemove)).collect(Collectors.toList());
+    }
+
+    private static String getDefaultCharSet() {
+        OutputStreamWriter writer = new OutputStreamWriter(new ByteArrayOutputStream());
+        String enc = writer.getEncoding();
+        return enc;
+    }
+}
