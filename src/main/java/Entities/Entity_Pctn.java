@@ -18,12 +18,6 @@ public class Entity_Pctn {
     public Entity_Pctn() {
     }
 
-    public Entity_Pctn(Entity_PctnPK pk) {
-        this.source = pk.getSource();
-        this.targetX = pk.getTargetX();
-        this.targetY = pk.getTargetY();
-    }
-
     @Id
     @Column(name = "source")
     public String getSource() {

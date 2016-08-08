@@ -1,21 +1,21 @@
 package util;
 
 import Entities.*;
+import org.apache.commons.lang.ArrayUtils;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import util.PlanarityTester.java.Graph;
-import util.PlanarityTester.java.GraphTraverser;
-import util.PlanarityTester.java.TestPlanarity;
 
 import java.util.*;
+
+import static util.PlanarTesting.planarityTester.planarityTesting;
 
 /**
  * Created by FireAwayH on 12/07/2016.
  */
 public class GraphGenerator {
 
-    static String[] s = StockList.stocks;
+    static String[] s = StockList.someStocks;
 
     public static void main(String[] args) {
         Date d = new Date();
@@ -26,29 +26,26 @@ public class GraphGenerator {
 
         PCPG_Extend(Arrays.asList(s));
 
-        for(int i = 0; i < s.length; i++){
-            X = StockList.stocks[i];
-            for (int k = 0; k < s.length; k++){
-                Y = StockList.stocks[k];
-                if(!X.equals(Y)){
-                    ++index;
-                    if(index > 0) {
+//        for(int i = 0; i < s.length; i++){
+//            X = StockList.stocks[i];
+//            for (int k = 0; k < s.length; k++){
+//                Y = StockList.stocks[k];
+//                if(!X.equals(Y)){
+//                    ++index;
+//                    if(index > 0) {
 //                        System.out.print(index + " #" + "X = " + X + " Y = " + Y + " ");
 //                        PCTN_Extend(X, Y);
-//                        String Z = Y;
-//                        PCPG_Extend(X, Z);
-                    }
-                }
-            }
-        }
+//                    }
+//                }
+//            }
+//        }
 
         Date dd = new Date();
-        System.out.print(dd.getTime() - d.getTime());
+//        System.out.print(dd.getTime() - d.getTime());
         System.exit(0);
     }
 
     private static void PCPG_Extend(List<String> stks) {
-        List rs;
         Session session = HibernateUtil.getSession();
         Transaction tx = null;
         try {
@@ -67,44 +64,27 @@ public class GraphGenerator {
                 }
             });
 
-            NavigableMap finalPCPG = ((TreeMap)pcpgs).descendingMap();
-            Graph<String> g = new Graph<>();
-            finalPCPG.forEach((k, v) -> {
-                PCPG tem = (PCPG)k;
-                System.out.println(tem.getX() + " " + tem.getZ());
-                g.addEdge(tem.getX(), tem.getZ());
+            NavigableMap prePCPG = ((TreeMap)pcpgs).descendingMap();
+            List<String[]> finalPCPG = MapNodeToIndex(stks, prePCPG);
 
-                Graph<String> cycle = (new GraphTraverser<>(g)).findCycle();
+            for(int i = 0; i < finalPCPG.size(); i++){
+                Entity_Pcpg p = new Entity_Pcpg();
+                String[] tem = finalPCPG.get(i);
+                p.setDependency(Double.parseDouble(tem[2].toString()));
+                p.setSource(tem[1]);
+                p.setTarget(tem[0]);
+                session.saveOrUpdate(p);
+            }
 
-
-                System.out.println(TestPlanarity.testPlanarity(g, cycle) ? "planar" : "nonplanar");
-            });
-
-//            pcpgs = pcpgs.descendingMap();
-//            rs = session.createQuery("select z, xyz from Entity_PartialCorrelation where x=:X and y=:Y and xyz>:innerSelect").setParameter("X", X).setParameter("Y", Z).setParameter("innerSelect", d).list();
-//            System.out.println(d);
-
-
-            final List<String> finalStk = new ArrayList<>();
-//            rs.forEach(r -> {
-//                Entity_Pctn pk = new Entity_Pctn();
-//                Object[] t = (Object[])r;
-//                pk.setSource(t[0].toString());
-//                pk.setTargetX(X);
-//                pk.setTargetY(Z);
-//                pk.setDependency(Double.parseDouble(t[1].toString()));
-//                finalStk.add(X);
-////                finalStk.add(Y);
-//                finalStk.add(t[0].toString());
-//                session.saveOrUpdate(pk);
+//            finalPCPG.forEach(x -> {
+////                PCPG tem = (PCPG) k;
+//                Entity_Pcpg p = new Entity_Pcpg();
+////                p.setSource(tem.getX());
+//                p.setSource("tem.getZ()");
+//                p.setTarget("x");
+////                p.setDependency(Double.parseDouble(v.toString()));
+//                session.saveOrUpdate(p);
 //            });
-
-
-            finalStk.stream().distinct().forEach(s -> {
-                Entity_Stocksinpcpg sp = new Entity_Stocksinpcpg();
-                sp.setName(s);
-                session.saveOrUpdate(sp);
-            });
 
             tx.commit();
         } catch (HibernateException e) {
@@ -115,6 +95,50 @@ public class GraphGenerator {
         } finally {
             session.close();
         }
+    }
+
+    private static List MapNodeToIndex(List<String> stks, NavigableMap prePCPG) {
+        List<Integer> i = new ArrayList<>();
+        List<Integer> j = new ArrayList<>();
+
+        List<String> index = new ArrayList<>();
+
+        List finalPCPG = new ArrayList<>();
+        i.add(0);
+        j.add(0);
+//        int nodes = stks.size();
+//        int edges = finalPCPG.size();
+        prePCPG.forEach((k, v) -> {
+            PCPG tem = (PCPG)k;
+            String x = tem.getX();
+            String z = tem.getZ();
+            if(!index.contains(x)) {
+                index.add(x);
+            }
+            if(!index.contains(z)) {
+                index.add(z);
+            }
+            i.add(index.indexOf(x) + 1);
+            j.add(index.indexOf(z) + 1);
+
+            int edges = i.size() - 1;
+            Integer[] t1 = i.toArray(new Integer[edges]);
+            Integer[] t2 = j.toArray(new Integer[edges]);
+            Integer[] t = (Integer[])(ArrayUtils.addAll(t1, t2));
+
+            int nodes = (int) Arrays.asList(t).stream().distinct().count() - 1;
+
+            if (edges <= 3 * nodes - 6){
+                try {
+                    if (planarityTesting(nodes, edges, i, j)) {
+                        finalPCPG.add(new String[]{x, z, v.toString()});
+                    }
+                }catch (Exception e){
+//                    e.printStackTrace();
+                }
+            }
+        });
+        return finalPCPG;
     }
 
     private static void PCTN_Extend(String X, String Y) {

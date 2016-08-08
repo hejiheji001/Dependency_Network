@@ -1,28 +1,17 @@
 package Entities;
 
 import javax.persistence.*;
-import java.math.BigInteger;
 
 /**
- * Created by FireAwayH on 28/07/2016.
+ * Created by FireAwayH on 07/08/2016.
  */
 @Entity
 @Table(name = "pcpg")
 @IdClass(Entity_PcpgPK.class)
 public class Entity_Pcpg {
     private String source;
-    private String targetX;
-    private String targetY;
-    private BigInteger dependency;
-
-    public Entity_Pcpg() {
-    }
-
-    public Entity_Pcpg(Entity_PcpgPK pk) {
-        this.source = pk.getSource();
-        this.targetX = pk.getTargetX();
-        this.targetY = pk.getTargetY();
-    }
+    private String target;
+    private Double dependency;
 
     @Id
     @Column(name = "source")
@@ -35,32 +24,22 @@ public class Entity_Pcpg {
     }
 
     @Id
-    @Column(name = "target_x")
-    public String getTargetX() {
-        return targetX;
+    @Column(name = "target")
+    public String getTarget() {
+        return target;
     }
 
-    public void setTargetX(String targetX) {
-        this.targetX = targetX;
-    }
-
-    @Id
-    @Column(name = "target_y")
-    public String getTargetY() {
-        return targetY;
-    }
-
-    public void setTargetY(String targetY) {
-        this.targetY = targetY;
+    public void setTarget(String target) {
+        this.target = target;
     }
 
     @Basic
     @Column(name = "dependency")
-    public BigInteger getDependency() {
+    public Double getDependency() {
         return dependency;
     }
 
-    public void setDependency(BigInteger dependency) {
+    public void setDependency(Double dependency) {
         this.dependency = dependency;
     }
 
@@ -72,8 +51,7 @@ public class Entity_Pcpg {
         Entity_Pcpg that = (Entity_Pcpg) o;
 
         if (source != null ? !source.equals(that.source) : that.source != null) return false;
-        if (targetX != null ? !targetX.equals(that.targetX) : that.targetX != null) return false;
-        if (targetY != null ? !targetY.equals(that.targetY) : that.targetY != null) return false;
+        if (target != null ? !target.equals(that.target) : that.target != null) return false;
         if (dependency != null ? !dependency.equals(that.dependency) : that.dependency != null) return false;
 
         return true;
@@ -82,8 +60,7 @@ public class Entity_Pcpg {
     @Override
     public int hashCode() {
         int result = source != null ? source.hashCode() : 0;
-        result = 31 * result + (targetX != null ? targetX.hashCode() : 0);
-        result = 31 * result + (targetY != null ? targetY.hashCode() : 0);
+        result = 31 * result + (target != null ? target.hashCode() : 0);
         result = 31 * result + (dependency != null ? dependency.hashCode() : 0);
         return result;
     }

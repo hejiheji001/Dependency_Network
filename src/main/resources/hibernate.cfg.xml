@@ -8,7 +8,7 @@
     <property name="connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL95Dialect</property>
     <property name="hibernate.default_schema">public</property>
-    <property name="hibernate.show_sql">false</property>
+    <property name="hibernate.show_sql">true</property>
     <property name="hibernate.format_sql">false</property>
 
     <mapping class="Entities.Entity_3In"/>
@@ -365,9 +365,9 @@
     <mapping class="Entities.Entity_PartialCorrelation"/>
     <mapping class="Entities.Entity_Pctn"/>
     <mapping class="Entities.Entity_Stocksinpctn"/>
-    <mapping class="Entities.Entity_Pcpg"/>
     <mapping class="Entities.Entity_Test"/>
     <mapping class="Entities.Entity_Stocksinpcpg"/>
+    <mapping class="Entities.Entity_Pcpg"/>
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
   </session-factory>

@@ -4,6 +4,7 @@ package hadoopTest;
  * Created by FireAwayH on 21/07/2016.
  */
 
+import com.google.common.collect.Lists;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
@@ -19,7 +20,10 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.StringTokenizer;
+import java.util.stream.Collectors;
+
 public class WordCount {
     public static class Map extends Mapper<LongWritable, Text, Text, IntWritable> {
         private final static IntWritable one = new IntWritable(1);
@@ -39,9 +43,12 @@ public class WordCount {
         public void reduce(Text key, Iterable<IntWritable> values, Context context)
                 throws IOException, InterruptedException {
             int sum = 0;
-            for (IntWritable val : values) {
-                sum += val.get();
-            }
+//            for (IntWritable val : values) {
+//                sum += val.get();
+//            }
+
+            List<IntWritable> l = Lists.newArrayList(values);
+            List<IntWritable> f = l.stream().distinct().collect(Collectors.toList());
             context.write(key, new IntWritable(sum));
         }
     }
@@ -56,9 +63,9 @@ public class WordCount {
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
 
-        FileInputFormat.addInputPath(job, new Path("input"));
-        FileOutputFormat.setOutputPath(job, new Path("output"));
-        FileSystem.get(conf).delete(new Path("output"),true);
+        FileInputFormat.addInputPath(job, new Path("/Volumes/Macintosh HD/Volumes/Macintosh HD/Users/FireAwayH/Github/Dependency_Network/src/main/resources/input/test.txt"));
+        FileOutputFormat.setOutputPath(job, new Path("/Volumes/Macintosh HD/Volumes/Macintosh HD/Users/FireAwayH/Github/Dependency_Network/src/main/resources/output/"));
+        FileSystem.get(conf).delete(new Path("/Volumes/Macintosh HD/Volumes/Macintosh HD/Users/FireAwayH/Github/Dependency_Network/src/main/resources/output/"),true);
         job.waitForCompletion(true);
     }
 }
