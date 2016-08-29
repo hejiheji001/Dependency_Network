@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: hadoopTest.WordCount
+Main-Class: util.Hadoop.PearsonAndPartialCorrelation.ComputePartialCor
+ relation
 

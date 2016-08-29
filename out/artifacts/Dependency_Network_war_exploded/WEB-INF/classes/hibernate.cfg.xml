@@ -10,7 +10,8 @@
     <property name="hibernate.default_schema">public</property>
     <property name="hibernate.show_sql">false</property>
     <property name="hibernate.format_sql">false</property>
-
+    <property name="hibernate.jdbc.batch_size">500</property>
+    <property name="hiberante.cache.use_second_level_cache">false</property>
     <mapping class="Entities.Entity_3In"/>
     <mapping class="Entities.Entity_Aa"/>
     <mapping class="Entities.Entity_Aal"/>
@@ -365,6 +366,9 @@
     <mapping class="Entities.Entity_PartialCorrelation"/>
     <mapping class="Entities.Entity_Pctn"/>
     <mapping class="Entities.Entity_Stocksinpctn"/>
+    <mapping class="Entities.Entity_Test"/>
+    <mapping class="Entities.Entity_Stocksinpcpg"/>
+    <mapping class="Entities.Entity_Pcpg"/>
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
   </session-factory>

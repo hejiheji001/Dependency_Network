@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="./css/main.css">
 	<script src="./js/bootstrap/bootstrap.min.js"></script>
 	<script src="./js/bootstrap/bootstrap-toggle.min.js"></script>
-
 </head>
 <body>
 <div id="wrapper">
@@ -87,14 +86,15 @@
 								</span>
 								<span style="position: absolute; right: 20px; top:5px">
 								<!--Enable filters on graph:-->
-									<input class="visual" data="pctn" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
-									<input class="legend" data="pctn" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
+									<input class="visual" data="pctn" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success" data-offstyle="success">
+									<!--<input class="legend" data="pctn" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">-->
 									<input class="flscn" data="pctn_graph" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
 								</span>
 							</h3>
 						</div>
-						<div class="panel-body graph" id="pctn">
-						</div>
+						<div class="panel-body graph graph_load" id="pctn_load"></div>
+						<div class="panel-body graph graph_in" id="pctn_in"></div>
+						<div class="panel-body graph graph_out" id="pctn_out"></div>
 					</div>
 				</div>
             </div>
@@ -105,14 +105,15 @@
 							<h3 class="panel-title">Partial Correlation Planar Graph
 								<span style="position: absolute; right: 20px; top:5px">
 								<!--Enable filters on graph:-->
-									<!-- <input class="visual" data="pcpg" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success"> -->
-									<input class="legend" data="pcpg" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
+									<input class="visual" data="pcpg" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success" data-offstyle="success">
+									<!--<input class="legend" data="pcpg" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">-->
 									<input class="flscn" data="pcpg_graph" type="checkbox" data-toggle="toggle" data-size="small" data-onstyle="success">
 								</span>
 							</h3>
 						</div>
-						<div class="panel-body graph" id="pcpg">
-						</div>
+						<div class="panel-body graph graph_load" id="pcpg_load"></div>
+						<div class="panel-body graph graph_in" id="pcpg_in"></div>
+						<div class="panel-body graph graph_out" id="pcpg_out"></div>
 					</div>
 				</div>
 			</div>
@@ -128,8 +129,14 @@
 			</div>
 		</div>
 	</div>
-	<script src="./js/echarts/echarts_full.js"></script>
-	<script src="./js/cytoscape.js/cytoscape.js"></script>
-	<script src="./js/main.js"></script>
+	<script src="./js/echarts/echarts.min.js"></script>
+	<!--<script src="./js/echarts/dataTool.min.js"></script>-->
+	<!--<script src="./js/cytoscape.js/cytoscape.js"></script>-->
+	<!--<script src="./js/data.js"></script>-->
+	<!--<script src="./js/main.js"></script>-->
+	<script src="js/util.js"></script>
+	<script src="js/sigma.js/sigma.min.js"></script>
+	<script src="js/sigma.js/plugins/sigma.parsers.gexf.min.js"></script>
+	<script src="js/sigma.main.js"></script>
 </div>
 </body>

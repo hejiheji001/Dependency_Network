@@ -988,7 +988,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    /**
-	     * Layout before each chart render there series, special visual encoding stage
+	     * Layout before each chart render there series, special degree_switch encoding stage
 	     *
 	     * @param {module:echarts/model/Global} ecModel
 	     * @private
@@ -1003,7 +1003,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    /**
-	     * Encode visual infomation from data after data processing
+	     * Encode degree_switch infomation from data after data processing
 	     *
 	     * @param {module:echarts/model/Global} ecModel
 	     * @private
@@ -1481,8 +1481,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 
 	    /**
-	     * Layout is a special stage of visual encoding
-	     * Most visual encoding like color are common for different chart
+	     * Layout is a special stage of degree_switch encoding
+	     * Most degree_switch encoding like color are common for different chart
 	     * But each chart has it's own layout algorithm
 	     *
 	     * @param {string} [priority=1000]
@@ -1516,7 +1516,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	        if (true) {
 	            if (isNaN(priority)) {
-	                throw new Error('Unkown visual priority');
+	                throw new Error('Unkown degree_switch priority');
 	            }
 	        }
 	        visualFuncs.push({
@@ -6828,7 +6828,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        legendDataProvider: null,
 
 	        /**
-	         * Access path of color for visual
+	         * Access path of color for degree_switch
 	         */
 	        visualColorAccessPath: 'itemStyle.normal.color',
 
@@ -20093,7 +20093,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            // FIXME Set color function or use the platte color
 	            data.setVisual('color', color);
 
-	            // Only visible series has each data be visual encoded
+	            // Only visible series has each data be degree_switch encoded
 	            if (!ecModel.isSeriesFiltered(seriesModel)) {
 	                if (typeof color === 'function' && !(color instanceof Gradient)) {
 	                    data.each(function (idx) {
@@ -20448,7 +20448,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this.stackedOn = null;
 
 	        /**
-	         * Global visual properties after visual coding
+	         * Global degree_switch properties after degree_switch coding
 	         * @type {Object}
 	         * @private
 	         */
@@ -20462,7 +20462,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this._layout = {};
 
 	        /**
-	         * Item visual properties after visual coding
+	         * Item degree_switch properties after degree_switch coding
 	         * @type {Array.<Object>}
 	         * @private
 	         */
@@ -21203,7 +21203,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        );
 	    };
 	    /**
-	     * Get visual property.
+	     * Get degree_switch property.
 	     * @param {string} key
 	     */
 	    listProto.getVisual = function (key) {
@@ -21212,7 +21212,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 
 	    /**
-	     * Set visual property
+	     * Set degree_switch property
 	     * @param {string|Object} key
 	     * @param {*} [value]
 	     *
@@ -21289,7 +21289,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 
 	    /**
-	     * Get visual property of single data item
+	     * Get degree_switch property of single data item
 	     * @param {number} idx
 	     * @param {string} key
 	     * @param {boolean} ignoreParent
@@ -21298,14 +21298,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var itemVisual = this._itemVisuals[idx];
 	        var val = itemVisual && itemVisual[key];
 	        if (val == null && !ignoreParent) {
-	            // Use global visual property
+	            // Use global degree_switch property
 	            return this.getVisual(key);
 	        }
 	        return val;
 	    };
 
 	    /**
-	     * Set visual property of single data item
+	     * Set degree_switch property of single data item
 	     *
 	     * @param {number} idx
 	     * @param {string|Object} key
@@ -21333,7 +21333,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 
 	    /**
-	     * Clear itemVisuals and list visual.
+	     * Clear itemVisuals and list degree_switch.
 	     */
 	    listProto.clearAllVisual = function () {
 	        this._visual = {};
@@ -21388,7 +21388,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 
 	    /**
-	     * Shallow clone a new list except visual and layout properties, and graph elements.
+	     * Shallow clone a new list except degree_switch and layout properties, and graph elements.
 	     * New list only change the indices.
 	     */
 	    listProto.cloneShallow = function () {
@@ -22293,7 +22293,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var max = lastStop.interval ? clamp(lastStop.interval[1], dataExtent) : lastStop.value;
 	        var stopsSpan = max - min;
 
-	        // In the piecewise case data out of visual range
+	        // In the piecewise case data out of degree_switch range
 	        // ----dataMin----dataMax-----visualMin----visualMax
 	        if (stopsSpan === 0) {
 	            return data.getItemVisual(0, 'color');
@@ -23995,7 +23995,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    module.exports = function (seriesType, defaultSymbolType, legendSymbol, ecModel, api) {
 
-	        // Encoding visual for all series include which is filtered for legend drawing
+	        // Encoding degree_switch for all series include which is filtered for legend drawing
 	        ecModel.eachRawSeriesByType(seriesType, function (seriesModel) {
 	            var data = seriesModel.getData();
 
@@ -24008,7 +24008,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                symbolSize: symbolSize
 	            });
 
-	            // Only visible series has each data be visual encoded
+	            // Only visible series has each data be degree_switch encoded
 	            if (!ecModel.isSeriesFiltered(seriesModel)) {
 	                if (typeof symbolSize === 'function') {
 	                    data.each(function (idx) {
@@ -28624,7 +28624,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        labelLine.ignore = labelLine.normalIgnore = !labelLineModel.get('show');
 	        labelLine.hoverIgnore = !labelLineHoverModel.get('show');
 
-	        // Default use item visual color
+	        // Default use item degree_switch color
 	        labelLine.setStyle({
 	            stroke: visualColor,
 	            opacity: data.getItemVisual(idx, 'opacity')
@@ -28815,7 +28815,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    if (!singleDataColor) {
 	                        var color = itemModel.get('itemStyle.normal.color')
 	                            || seriesModel.getColorFromPalette(dataAll.getName(rawIdx), paletteScope);
-	                        // Legend may use the visual info in data before processed
+	                        // Legend may use the degree_switch info in data before processed
 	                        dataAll.setItemVisual(rawIdx, 'color', color);
 	                        data.setItemVisual(filteredIdx, 'color', color);
 	                    }
@@ -32028,7 +32028,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                        // Which needs statistic of multiple series and draw on one map.
 	                        // And each series also need a symbol with legend color
 	                        //
-	                        // Layout and visual are put one the different data
+	                        // Layout and degree_switch are put one the different data
 	                        fill: mapModel.getData().getVisual('color')
 	                    },
 	                    shape: {
@@ -32235,8 +32235,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	                // Use the itemStyle in data if has data
 	                if (data) {
 	                    dataIdx = data.indexOfName(region.name);
-	                    // Only visual color of each item will be used. It can be encoded by dataRange
-	                    // But visual color of series is used in symbol drawing
+	                    // Only degree_switch color of each item will be used. It can be encoded by dataRange
+	                    // But degree_switch color of series is used in symbol drawing
 	                    //
 	                    // Visual color for each series is for the symbol draw
 	                    var visualColor = data.getItemVisual(dataIdx, 'color', true);
@@ -33627,7 +33627,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 
 	        /**
-	         * Get item visual
+	         * Get item degree_switch
 	         */
 	        getVisual: function (key, ignoreParent) {
 	            return this.hostTree.data.getItemVisual(this.dataIndex, key, ignoreParent);
@@ -34729,7 +34729,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        function updateStyle(element, cb) {
 	            if (!thisInvisible) {
-	                // If invisible, do not set visual, otherwise the element will
+	                // If invisible, do not set degree_switch, otherwise the element will
 	                // change immediately before animation. We think it is OK to
 	                // remain its origin color when moving out of the view window.
 	                cb();
@@ -35304,14 +35304,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var viewChildren = node.viewChildren;
 	        if (!viewChildren || !viewChildren.length) {
 	            thisNodeColor = calculateColor(visuals, node);
-	            // Apply visual to this node.
+	            // Apply degree_switch to this node.
 	            node.setVisual('color', thisNodeColor);
 	        }
 	        else {
 	            var mapping = buildVisualMapping(
 	                node, nodeModel, nodeLayout, nodeItemStyleModel, visuals, viewChildren
 	            );
-	            // Designate visual to children.
+	            // Designate degree_switch to children.
 	            zrUtil.each(viewChildren, function (child, index) {
 	                // If higher than viewRoot, only ancestors of viewRoot is needed to visit.
 	                if (child.depth >= viewRootAncestors.length
@@ -35557,7 +35557,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            thisOption.categories
 	                ? preprocessForSpecifiedCategory(thisOption)
 	                // categories is ordinal when thisOption.categories not specified,
-	                // which need no more preprocess except normalize visual.
+	                // which need no more preprocess except normalize degree_switch.
 	                : normalizeVisualRange(thisOption, true);
 	        }
 	        else { // mappingMethod === 'linear' or 'fixed'
@@ -35690,8 +35690,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        zrUtil.each(pieceList, function (piece, index) {
 	            piece.originIndex = index;
-	            // piece.visual is "result visual value" but not
-	            // a visual range, so it does not need to be normalized.
+	            // piece.degree_switch is "result degree_switch value" but not
+	            // a degree_switch range, so it does not need to be normalized.
 	            if (piece.visual != null) {
 	                thisOption.hasSpecialVisual = true;
 	            }
@@ -35708,7 +35708,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            categoryMap[cate] = index;
 	        });
 
-	        // Process visual map input.
+	        // Process degree_switch map input.
 	        if (!zrUtil.isArray(visual)) {
 	            var visualArr = [];
 
@@ -35718,14 +35718,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    visualArr[index != null ? index : CATEGORY_DEFAULT_VISUAL_INDEX] = v;
 	                });
 	            }
-	            else { // Is primary type, represents default visual.
+	            else { // Is primary type, represents default degree_switch.
 	                visualArr[CATEGORY_DEFAULT_VISUAL_INDEX] = visual;
 	            }
 
 	            visual = thisOption.visual = visualArr;
 	        }
 
-	        // Remove categories that has no visual,
+	        // Remove categories that has no degree_switch,
 	        // then we can mapping them to CATEGORY_DEFAULT_VISUAL_INDEX.
 	        for (var i = categories.length - 1; i >= 0; i--) {
 	            if (visual[i] == null) {
@@ -35904,7 +35904,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * @public
 	     * @param {Object} obj
-	     * @return {Oject} new object containers visual values.
+	     * @return {Oject} new object containers degree_switch values.
 	     *                 If no visuals, return null.
 	     */
 	    VisualMapping.retrieveVisuals = function (obj) {
@@ -35922,12 +35922,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 
 	    /**
-	     * Give order to visual types, considering colorSaturation, colorAlpha depends on color.
+	     * Give order to degree_switch types, considering colorSaturation, colorAlpha depends on color.
 	     *
 	     * @public
 	     * @param {(Object|Array)} visualTypes If Object, like: {color: ..., colorSaturation: ...}
 	     *                                     IF Array, like: ['color', 'symbol', 'colorSaturation']
-	     * @return {Array.<string>} Sorted visual types.
+	     * @return {Array.<string>} Sorted degree_switch types.
 	     */
 	    VisualMapping.prepareVisualTypes = function (visualTypes) {
 	        if (isObject(visualTypes)) {
@@ -36261,7 +36261,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    /**
-	     * Set area to each child, and calculate data extent for visual coding.
+	     * Set area to each child, and calculate data extent for degree_switch coding.
 	     */
 	    function initChildren(node, nodeModel, totalArea, options, hideChildren, depth) {
 	        var viewChildren = node.children || [];
@@ -36368,9 +36368,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	            sum += children[i].getValue();
 	        }
 
-	        // Statistic data extent for latter visual coding.
+	        // Statistic data extent for latter degree_switch coding.
 	        // Notice: data extent should be calculate based on raw children
-	        // but not filtered view children, otherwise visual mapping will not
+	        // but not filtered view children, otherwise degree_switch mapping will not
 	        // be stable when zoom (where children is filtered by visibleMin).
 
 	        var dimension = nodeModel.get('visualDimension');
@@ -36560,7 +36560,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        };
 	    }
 
-	    // Mark nodes visible for prunning when visual coding and rendering.
+	    // Mark nodes visible for prunning when degree_switch coding and rendering.
 	    // Prunning depends on layout and root position, so we have to do it after layout.
 	    function prunning(node, clipRect, viewAbovePath, viewRoot, depth) {
 	        var nodeLayout = node.getLayout();
@@ -38532,7 +38532,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                categoriesData.setItemVisual(idx, 'color', color);
 	            });
 
-	            // Assign category color to visual
+	            // Assign category color to degree_switch
 	            if (categoriesData.count()) {
 	                data.each(function (idx) {
 	                    var model = data.getItemModel(idx);
@@ -38584,7 +38584,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                var edge = graph.getEdgeByIndex(idx);
 	                var symbolType = normalize(itemModel.getShallow('symbol', true));
 	                var symbolSize = normalize(itemModel.getShallow('symbolSize', true));
-	                // Edge visual must after node visual
+	                // Edge degree_switch must after node degree_switch
 	                var color = itemModel.get('lineStyle.normal.color');
 	                switch (color) {
 	                    case 'source':
@@ -39994,7 +39994,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        labelLine.ignore = labelLine.normalIgnore = !labelLineModel.get('show');
 	        labelLine.hoverIgnore = !labelLineHoverModel.get('show');
 
-	        // Default use item visual color
+	        // Default use item degree_switch color
 	        labelLine.setStyle({
 	            stroke: visualColor
 	        });
@@ -44160,11 +44160,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	            data.setVisual({
 	                legendSymbol: 'roundRect',
 	                // Use name 'color' but not 'borderColor' for legend usage and
-	                // visual coding from other component like dataRange.
+	                // degree_switch coding from other component like dataRange.
 	                color: seriesModel.get(borderColorQuery) || defaulColor
 	            });
 
-	            // Only visible series has each data be visual encoded
+	            // Only visible series has each data be degree_switch encoded
 	            if (!ecModel.isSeriesFiltered(seriesModel)) {
 	                data.each(function (idx) {
 	                    var itemModel = data.getItemModel(idx);
@@ -44587,7 +44587,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                legendSymbol: 'roundRect'
 	            });
 
-	            // Only visible series has each data be visual encoded
+	            // Only visible series has each data be degree_switch encoded
 	            if (!ecModel.isSeriesFiltered(seriesModel)) {
 	                data.each(function (idx) {
 	                    var itemModel = data.getItemModel(idx);
@@ -50693,7 +50693,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
-	 * @file Brush visual coding.
+	 * @file Brush degree_switch coding.
 	 */
 
 
@@ -50711,7 +50711,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var PRIORITY_BRUSH = echarts.PRIORITY.VISUAL.BRUSH;
 
 	    /**
-	     * Layout for visual, the priority higher than other layout, and before brush visual.
+	     * Layout for degree_switch, the priority higher than other layout, and before brush degree_switch.
 	     */
 	    echarts.registerLayout(PRIORITY_BRUSH, function (ecModel, api, payload) {
 	        ecModel.eachComponent({mainType: 'brush'}, function (brushModel) {
@@ -50727,7 +50727,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 
 	    /**
-	     * Register the visual encoding if this modules required.
+	     * Register the degree_switch encoding if this modules required.
 	     */
 	    echarts.registerVisual(PRIORITY_BRUSH, function (ecModel, api, payload) {
 
@@ -51046,7 +51046,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	         * @param {Object} option
 	         * @param {Array.<string>} stateList
 	         * @param {Function} [supplementVisualOption]
-	         * @return {Object} visualMappings <state, <visualType, module:echarts/visual/VisualMapping>>
+	         * @return {Object} visualMappings <state, <visualType, module:echarts/degree_switch/VisualMapping>>
 	         */
 	        createVisualMappings: function (option, stateList, supplementVisualOption) {
 	            var visualMappings = {};
@@ -51115,7 +51115,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        /**
 	         * @param {Array.<string>} stateList
-	         * @param {Object} visualMappings <state, Object.<visualType, module:echarts/visual/VisualMapping>>
+	         * @param {Object} visualMappings <state, Object.<visualType, module:echarts/degree_switch/VisualMapping>>
 	         * @param {module:echarts/data/List} list
 	         * @param {Function} getValueState param: valueOrIndex, return: state.
 	         * @param {object} [scope] Scope for getValueState
@@ -51786,7 +51786,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            );
 
 	            thisOption.inBrush = thisOption.inBrush || {};
-	            // Always give default visual, consider setOption at the second time.
+	            // Always give default degree_switch, consider setOption at the second time.
 	            thisOption.outOfBrush = thisOption.outOfBrush || {color: DEFAULT_OUT_OF_BRUSH_COLOR};
 	        },
 
@@ -54835,7 +54835,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
-	 * @file Data range visual coding.
+	 * @file Data range degree_switch coding.
 	 */
 
 
@@ -55153,7 +55153,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
-	 * @file Controller visual map model
+	 * @file Controller degree_switch map model
 	 */
 
 
@@ -56884,7 +56884,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            pieceList: null,            // Each item is Object, with some of those attrs:
 	                                        // {min, max, lt, gt, lte, gte, value,
 	                                        // color, colorSaturation, colorAlpha, opacity,
-	                                        // symbol, symbolSize}, which customize the range or visual
+	                                        // symbol, symbolSize}, which customize the range or degree_switch
 	                                        // coding of the certain piece. Besides, see "Order Rule".
 	            categories: null,           // category names, like: ['some1', 'some2', 'some3'].
 	                                        // Attr min/max are ignored when categories set. See "Order Rule"
@@ -57214,7 +57214,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    }
 
 	                    if (interval[0] === interval[1] && close[0] && close[1]) {
-	                        // Consider: [{min: 5, max: 5, visual: {...}}, {min: 0, max: 5}],
+	                        // Consider: [{min: 5, max: 5, degree_switch: {...}}, {min: 0, max: 5}],
 	                        // we use value to lift the priority when min === max
 	                        item.value = interval[0];
 	                    }
@@ -58359,7 +58359,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    var mlData = mlModel.getData();
 	                    var fromData = mlModel.__from;
 	                    var toData = mlModel.__to;
-	                    // Update visual and layout of from symbol and to symbol
+	                    // Update degree_switch and layout of from symbol and to symbol
 	                    fromData.each(function (idx) {
 	                        updateSingleMarkerEndLayout(fromData, idx, true, seriesModel, api);
 	                        updateSingleMarkerEndLayout(toData, idx, false, seriesModel, api);
@@ -58410,13 +58410,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	                symbolSize = [symbolSize, symbolSize];
 	            }
 
-	            // Update visual and layout of from symbol and to symbol
+	            // Update degree_switch and layout of from symbol and to symbol
 	            mlData.from.each(function (idx) {
 	                updateDataVisualAndLayout(fromData, idx, true);
 	                updateDataVisualAndLayout(toData, idx, false);
 	            });
 
-	            // Update visual and layout of line
+	            // Update degree_switch and layout of line
 	            lineData.each(function (idx) {
 	                var lineColor = lineData.getItemModel(idx).get('lineStyle.normal.color');
 	                lineData.setItemVisual(idx, {
@@ -58757,7 +58757,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            // Line data for tooltip and formatter
 	            maModel.setData(areaData);
 
-	            // Update visual and layout of line
+	            // Update degree_switch and layout of line
 	            areaData.each(function (idx) {
 	                // Layout
 	                areaData.setItemLayout(idx, zrUtil.map(dimPermutations, function (dim) {

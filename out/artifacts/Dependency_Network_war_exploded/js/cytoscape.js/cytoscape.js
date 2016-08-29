@@ -3318,7 +3318,7 @@ var boundingBoxImpl = function( ele, options ){
   bounds.w = noninf( bounds.x2 - bounds.x1 );
   bounds.h = noninf( bounds.y2 - bounds.y1 );
 
-  // expand bounds by 1 because antialiasing can increase the visual/effective size by 1 on all sides
+  // expand bounds by 1 because antialiasing can increase the degree_switch/effective size by 1 on all sides
   if( bounds.w > 0 && bounds.h > 0 && displayed ){
     math.expandBoundingBox( bounds, 1 );
   }
@@ -23836,7 +23836,7 @@ styfn.cleanElements = function( eles, keepBypasses ){
   }
 };
 
-// updates the visual style for all elements (useful for manual style modification after init)
+// updates the degree_switch style for all elements (useful for manual style modification after init)
 styfn.update = function(){
   var cy = this._private.cy;
   var eles = cy.mutableElements();
@@ -24937,7 +24937,7 @@ var styfn = {};
     return '^' + prefix + '\\s*\\(([\\w\\.]+)\\s*\\,\\s*(' + number + ')\\s*\\,\\s*(' + number + ')\\s*,\\s*(' + mapArg + ')\\s*\\,\\s*(' + mapArg + ')\\)$';
   };
 
-  // each visual style property has a type and needs to be validated according to it
+  // each degree_switch style property has a type and needs to be validated according to it
   styfn.types = {
     time: { number: true, min: 0, units: 's|ms', implicitUnits: 'ms' },
     percent: { number: true, min: 0, max: 100, units: '%', implicitUnits: '%' },
@@ -25011,7 +25011,7 @@ var styfn = {};
     }
   };
 
-  // define visual style properties
+  // define degree_switch style properties
   var t = styfn.types;
   var props = styfn.properties = [
     // main label

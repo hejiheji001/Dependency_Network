@@ -55,7 +55,7 @@ public class MainServlet extends HttpServlet {
                 String type = q[1];
                 res = "true";
 
-                if(method.equalsIgnoreCase("pctn")) {
+                if(method.equalsIgnoreCase("getGraph")) {
                     fullGraph = GraphGenerator.getDependencyNetwork("Entity_Pctn");
                     switch (type) {
                         case "all":
@@ -70,6 +70,18 @@ public class MainServlet extends HttpServlet {
                                 }
                             });
 
+                            jw.endArray();
+
+                            jw.startArray("nodes");
+                            stockList.forEach(o -> {
+                                try {
+                                    jw.startObject();
+                                    jw.objectValue("id", o);
+                                    jw.endObject();
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            });
                             jw.endArray();
 
                             jw.startArray("allStocks");
@@ -132,31 +144,34 @@ public class MainServlet extends HttpServlet {
             }
         }
 
-        jw.startArray("edges");
+        jw.startArray("links");
 
         // 保证网络中的股票都存在于列表中
         List<Entity_Pctn> r = (List<Entity_Pctn>)removeNInStkLst(fullGraph, stockList);
 
         r.stream().forEach(e -> {
             try {
-                String x = e.getTargetX();
-                String y = e.getTargetY();
-                String z = e.getSource();
                 double d = e.getDependency();
 
-                increaseWeight(indegree, x);
-                increaseWeight(indegree, y);
-                increaseWeight(outdegree, z);
+                if(d > 0.0d) {
+                    String x = e.getTargetX();
+                    String y = e.getTargetY();
+                    String z = e.getSource();
 
-                network.put("sourceID", z);
-                network.put("targetID", x);
-                network.put("width", d);
-                jw.writeObject(network);
+                    increaseWeight(indegree, x);
+                    increaseWeight(indegree, y);
+                    increaseWeight(outdegree, z);
 
-                network.put("sourceID", z);
-                network.put("targetID", y);
-                network.put("width", d);
-                jw.writeObject(network);
+                    network.put("source", z);
+                    network.put("target", x);
+                    network.put("width", d);
+                    jw.writeObject(network);
+
+                    network.put("source", z);
+                    network.put("target", y);
+                    network.put("width", d);
+                    jw.writeObject(network);
+                }
             } catch (IOException e1) {
                 e1.printStackTrace();
             }

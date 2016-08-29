@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="sigma-container" style="width: 1000px;height: 768px"></div>
+<script src="js/sigma.js/sigma.min.js"></script>
+<script src="js/sigma.js/plugins/sigma.parsers.gexf.min.js"></script>
+<script>
+    // Add a method to the graph model that returns an
+    // object with every neighbors of a node inside:
+    sigma.classes.graph.addMethod('neighbors', function(nodeId) {
+
+        var k, neighbors = {}, index = this.allNeighborsIndex[nodeId] || {};
+//        console.log(nodeId);
+//        console.log(index);
+//        console.log(this);
+        for (k in index)
+            neighbors[k] = this.nodesIndex[k];
+
+        return neighbors;
+    });
+
+    sigma.parsers.gexf(
+            '/getGephi/?pctn=all',
+            {
+                container: 'sigma-container'
+            },
+            function(s) {
+                var nodes = s.graph.nodes();
+                var edges = s.graph.edges();
+
+                window.ss = s;
+                // We first need to save the original colors of our
+                // nodes and edges, like this:
+                nodes.forEach(function(n) {
+//                    n.originalColor = n.color;
+                    n.size += 2;
+                    if(n.size < 4){
+                        n.size += 2;
+                    }
+                    n.originalSize = n.size;
+                });
+                edges.forEach(function(e) {
+                    e.color = null;
+                    e.size += 1;
+//                    e.size =
+//                    console.log(e.edgeColor);
+//                    e.originalColor = e.edgeColor;
+                    e.originalSize = e.size;
+                });
+
+                s.settings({
+                    borderSize: 1,
+                    minArrowSize: 40,
+                    maxNodeSize: 20,
+                    minNodeSize: 0,
+                    minEdgeSize: 0,
+                    maxEdgeSize: 20,
+                    labelThreshold: 7
+                });
+
+                s.refresh();
+
+                // When a node is clicked, we check for each node
+                // if it is a neighbor of the clicked one. If not,
+                // we set its color as grey, and else, it takes its
+                // original color.
+                // We do the same for the edges, and we only keep
+                // edges that have both extremities colored.
+                s.bind('clickNode', function(e) {
+                    var nodeId = e.data.node.id;
+
+                    var toKeep = s.graph.neighbors(nodeId);
+                    toKeep[nodeId] = e.data.node;
+
+                    s.graph.nodes().forEach(function(n) {
+                        if (toKeep[n.id]) {
+//                            n.color = n.originalColor;
+                            n.size = n.originalSize + 5;
+                        }else {
+//                            n.color = '#fff';
+                            n.size = 0;
+                        }
+                    });
+
+                    var x = 0;
+                    s.graph.edges().forEach(function(e) {
+                        if (toKeep[e.source] && toKeep[e.target]) {
+                            if(toKeep[e.source].id == nodeId || toKeep[e.target].id == nodeId) {
+//                                e.color = e.originalColor;
+                                e.size = e.originalSize;
+                            }else{
+//                                e.color = '#fff';
+                                e.size = 0.0001;
+                            }
+                        }else {
+//                            e.color = '#fff';
+                            e.size = 0.0001;
+                        }
+                        x++;
+                    });
+
+                    // Since the data has been modified, we need to
+                    // call the refresh method to make the colors
+                    // update effective.
+                    s.refresh();
+                });
+
+                // When the stage is clicked, we just color each
+                // node and edge with its original color.
+
+                s.bind('clickStage', function(e) {
+                    s.graph.nodes().forEach(function(n) {
+//                        n.color = n.originalColor;
+                        n.size = n.originalSize;
+                    });
+
+                    s.graph.edges().forEach(function(e) {
+//                        e.color = e.originalColor;
+                        e.size = e.originalSize;
+                    });
+
+                    // Same as in the previous event:
+                    s.refresh();
+                });
+            }
+    );
+</script>
+</body>
+</html>

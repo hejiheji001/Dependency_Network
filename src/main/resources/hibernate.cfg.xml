@@ -8,9 +8,10 @@
     <property name="connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL95Dialect</property>
     <property name="hibernate.default_schema">public</property>
-    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.show_sql">false</property>
     <property name="hibernate.format_sql">false</property>
-
+    <property name="hibernate.jdbc.batch_size">500</property>
+    <property name="hiberante.cache.use_second_level_cache">false</property>
     <mapping class="Entities.Entity_3In"/>
     <mapping class="Entities.Entity_Aa"/>
     <mapping class="Entities.Entity_Aal"/>

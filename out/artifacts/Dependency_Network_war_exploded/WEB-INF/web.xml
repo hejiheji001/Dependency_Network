@@ -10,10 +10,19 @@
 		<servlet-name>MainServlet</servlet-name>
 		<servlet-class>main.MainServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>MainServletGephi</servlet-name>
+		<servlet-class>main.MainServletGephi</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>MainServlet</servlet-name>
 		<url-pattern>/get/*</url-pattern>
 		<url-pattern>/save/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MainServletGephi</servlet-name>
+		<url-pattern>/getGephi/*</url-pattern>
+		<url-pattern>/saveGephi/*</url-pattern>
 	</servlet-mapping>
 	<filter>
 		<filter-name>Set Character Encoding</filter-name>

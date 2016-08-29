@@ -8,6 +8,7 @@ import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -18,6 +19,7 @@ public class DataGenerator {
     // 1272792# P(Alm, Blt : Lmp)
     
     public static void main(String[] args){
+        long start = new Date().getTime();
         String X;
         String Y;
         String Z;
@@ -49,6 +51,8 @@ public class DataGenerator {
                 }
             }
         }
+        long end = new Date().getTime();
+        System.out.println("Uses " + (end - start) + " milisecs");
     }
 
     private static void saveToDB(String x, String y, String z, double p) {

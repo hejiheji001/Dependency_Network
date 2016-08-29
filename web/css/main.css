@@ -6,6 +6,15 @@ body {
 }
 .graph{
 	height: 500px;
+	padding: 0;
+}
+
+.graph_in{
+	display: none;
+}
+
+.graph_out{
+	display: none;
 }
 
 #Empty{
