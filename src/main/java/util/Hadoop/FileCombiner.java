@@ -35,10 +35,13 @@ public class FileCombiner {
     private static int length;
     private static double[][] matrixData;
     private static double[][] tranversedData;
-    private static List<String> loadedFiles = new ArrayList<>();
-    private static StringBuilder sb = new StringBuilder();
+
+
 
     public static class Map extends Mapper<LongWritable, Text, Text, Text> {
+        StringBuilder sb = new StringBuilder();
+        List<String> loadedFiles = new ArrayList<>();
+
         public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             FileSplit fileSplit = (FileSplit)context.getInputSplit();
             String filename = fileSplit.getPath().getName();
@@ -64,15 +67,17 @@ public class FileCombiner {
         @Override
         protected void cleanup(Context context) throws IOException, InterruptedException {
             context.write(new Text(sb.toString()), new Text(""));
-            sb = new StringBuilder();
             super.cleanup(context);
         }
     }
 
     public static class Reduce extends Reducer<Text, Text, Text, Text> {
+        StringBuilder sb = new StringBuilder();
+
         public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
             String[] line = key.toString().split("\\t");
             String[] data = Arrays.copyOfRange(line, 1, line.length);
+            System.out.println(data);
             double[] d = Arrays.asList(data).stream().mapToDouble(Double::parseDouble).toArray();
 
             if(d.length == lineNum) {
