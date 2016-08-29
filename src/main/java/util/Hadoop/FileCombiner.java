@@ -86,7 +86,6 @@ public class FileCombiner {
                 index++;
                 if (index == length) {
                     sb.append("\r\n");
-//                matrixData = blankToNum(matrixData, 0.0d);
                     tranversedData = new Array2DRowRealMatrix(matrixData).transpose().getData();
                     MyArrayMatrix transformedMatrix = new MyArrayMatrix(tranversedData);
                     context.write(new Text(sb.toString() + transformedMatrix.toString()), new Text(""));
@@ -98,31 +97,6 @@ public class FileCombiner {
                 FileSystem.get(context.getConfiguration()).delete(new Path(input + line[0] + ".txt"),true);
             }
         }
-
-//        private double[][] blankToNum(double[][] matrixData, double v) {
-//            List<double[]> l = new ArrayList<>(Arrays.asList(matrixData));
-//            final int[] max = {0};
-//            l.forEach(x -> {
-//                if(x.length > max[0]) {
-//                    max[0] = x.length;
-//                }
-//            });
-//
-//            int num = max[0];
-//
-//            for (int i = 0; i < l.size(); i++){
-//                double[] y = l.get(i);
-//                if(y.length < num){
-//                    int old = y.length;
-//                    y = Arrays.copyOf(y, num);
-//                    for (int j = old; j < num; j++){
-//                        y[j] = 0.0d;
-//                    }
-//                    l.set(i, y);
-//                }
-//            }
-//            return l.toArray(new double[l.size()][]);
-//        }
     }
 
     public static void combineFilesInPath(String input, String output) throws Exception{
