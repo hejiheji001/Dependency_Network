@@ -47,12 +47,6 @@
 							</transformers>
 							<minimizeJar>true</minimizeJar>
 							<filters>
-								<!--<filter>-->
-									<!--<artifact>javax.xml.stream:stax-api</artifact>-->
-									<!--<includes>-->
-										<!--<include>javax/xml/stream/**</include>-->
-									<!--</includes>-->
-								<!--</filter>-->
 								<filter>
 									<artifact>org.codehaus.woodstox:woodstox-core-asl</artifact>
 									<includes>
@@ -109,12 +103,6 @@
 				</executions>
 				<configuration>
 					<useDefaultResourceIgnoreList>true</useDefaultResourceIgnoreList>
-					<!--<ignoredDependencies>-->
-						<!---->
-					<!--</ignoredDependencies>-->
-					<!--<ignoredResources>-->
-						<!--<ignoredResource>META-INF.*</ignoredResource>-->
-					<!--</ignoredResources>-->
 					<exceptions>
 						<exception>
 							<conflictingDependencies>
@@ -263,23 +251,23 @@
 								<resource>javax/el/PrivateMessages.properties</resource>
 							</resources>
 						</exception>
-						<!--<exception>-->
-							<!--<conflictingDependencies>-->
-								<!--<dependency>-->
-									<!--<groupId>org.apache.hadoop</groupId>-->
-									<!--<artifactId>hadoop-mapreduce-client-jobclient</artifactId>-->
-									<!--<version>2.7.2</version>-->
-								<!--</dependency>-->
-								<!--<dependency>-->
-									<!--<groupId>org.apache.hadoop</groupId>-->
-									<!--<artifactId>hadoop-yarn-server-tests</artifactId>-->
-									<!--<version>2.7.2</version>-->
-								<!--</dependency>-->
-							<!--</conflictingDependencies>-->
-							<!--<resources>-->
-								<!--<resource>log4j.properties</resource>-->
-							<!--</resources>-->
-						<!--</exception>-->
+						<exception>
+							<conflictingDependencies>
+								<dependency>
+									<groupId>org.apache.hadoop</groupId>
+									<artifactId>hadoop-mapreduce-client-jobclient</artifactId>
+									<version>2.7.2</version>
+								</dependency>
+								<dependency>
+									<groupId>org.apache.hadoop</groupId>
+									<artifactId>hadoop-yarn-server-tests</artifactId>
+									<version>2.7.2</version>
+								</dependency>
+							</conflictingDependencies>
+							<resources>
+								<resource>log4j.properties</resource>
+							</resources>
+						</exception>
 						<exception>
 							<conflictingDependencies>
 								<dependency>
@@ -378,16 +366,9 @@
 					<failBuildInCaseOfConflict>false</failBuildInCaseOfConflict>
 					<printEqualFiles>false</printEqualFiles>
 					<preferLocal>true</preferLocal>
-
-					<!-- Version 1.1.1+ -->
 					<includeBootClasspath>false</includeBootClasspath>
 					<bootClasspathProperty>sun.boot.class.path</bootClasspathProperty>
-					<!-- Version 1.1.1+ -->
-
-
-					<!-- Version 1.2.0+ -->
 					<includePomProjects>false</includePomProjects>
-					<!-- Version 1.2.0+ -->
 				</configuration>
 			</plugin>
 		</plugins>

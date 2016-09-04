@@ -9,8 +9,9 @@ $(".graph").css("height", h);
 var pctn_hint = $("#pctn_hint");
 var popPCTN = '<div>\
 				<p>1. Edge\'s color equals to source node\'s color</p>\
-				<p>2. Node\'s size is proportional to it\'s indegree or outdegree number</p>\
-				<p>3. Edge\'s width is proportional to it\'s dependency value</p>\
+                <p>2. Edge\'s width is proportional to it\'s dependency value</p>\
+				<p>3. Node\'s size is proportional to it\'s indegree or outdegree number</p>\
+				<p>4. Node\'s color is relating to it\'s indegree or outdegree number</p>\
 			</div>';
 pctn_hint.popover({
     content: popPCTN,

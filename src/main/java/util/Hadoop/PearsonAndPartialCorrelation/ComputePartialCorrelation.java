@@ -116,19 +116,50 @@ public class ComputePartialCorrelation{
 //                FileSystem fs = new
             }else{
                 double[] myPairs = toDouble(line.split("\\t"));
+
                 for (int i = 0; i < myPairs.length; i++) {
                     emitKey.setI(i);
                     emitValue.setI(myPairs[i]);
                     for (int j = i; j < myPairs.length; j++) {
                         emitKey.setJ(j);
                         emitValue.setJ(myPairs[j]);
-                        for (int k = j; k < myPairs.length; k++){
-                            emitKey.setK(k);
-                            emitValue.setK(myPairs[k]);
-                            context.write(emitKey, emitValue);
-                        }
+                        context.write(emitKey, emitValue);
                     }
                 }
+
+                for (int i = 0; i < myPairs.length; i++) {
+                    emitKey.setI(i);
+                    emitValue.setI(myPairs[i]);
+                    for (int j = i; j < myPairs.length; j++) {
+                        emitKey.setK(j);
+                        emitValue.setK(myPairs[j]);
+                        context.write(emitKey, emitValue);
+                    }
+                }
+
+                for (int i = 0; i < myPairs.length; i++) {
+                    emitKey.setJ(i);
+                    emitValue.setJ(myPairs[i]);
+                    for (int j = i; j < myPairs.length; j++) {
+                        emitKey.setK(j);
+                        emitValue.setK(myPairs[j]);
+                        context.write(emitKey, emitValue);
+                    }
+                }
+
+//                for (int i = 0; i < myPairs.length; i++) {
+//                    emitKey.setI(i);
+//                    emitValue.setI(myPairs[i]);
+//                    for (int j = i; j < myPairs.length; j++) {
+//                        emitKey.setJ(j);
+//                        emitValue.setJ(myPairs[j]);
+//                        for (int k = j; k < myPairs.length; k++){
+//                            emitKey.setK(k);
+//                            emitValue.setK(myPairs[k]);
+//                            context.write(emitKey, emitValue);
+//                        }
+//                    }
+//                }
             }
             index++;
         }
@@ -174,6 +205,7 @@ public class ComputePartialCorrelation{
                 yz += value.getJ() * value.getK();
                 n += 1.0d;
             }
+//            n /= 3;
             PearsonWritable XY = new PearsonWritable(x, y, xx, yy, xy, n);
             PearsonWritable XZ = new PearsonWritable(x, z, xx, zz, xz, n);
             PearsonWritable YZ = new PearsonWritable(y, z, yy, zz, yz, n);

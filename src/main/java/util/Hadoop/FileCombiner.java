@@ -18,6 +18,8 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.LineNumberReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -27,17 +29,6 @@ import java.util.List;
  * Created by FireAwayH on 08/08/2016.
  */
 public class FileCombiner {
-
-    private static int lineNum = 756;
-    private static String input;
-    private static FileStatus[] status;
-    private static int index = 0;
-    private static int length;
-    private static double[][] matrixData;
-    private static double[][] tranversedData;
-
-
-
     public static class Map extends Mapper<LongWritable, Text, Text, Text> {
         StringBuilder sb = new StringBuilder();
         List<String> loadedFiles = new ArrayList<>();
@@ -73,11 +64,22 @@ public class FileCombiner {
 
     public static class Reduce extends Reducer<Text, Text, Text, Text> {
         StringBuilder sb = new StringBuilder();
+        int index = 0;
+        int length;
+        int lineNum;
+        double[][] matrixData;
+
+        @Override
+        protected void setup(Context context) throws IOException, InterruptedException {
+            length = context.getConfiguration().getInt("matrix.length", 0);
+            lineNum = context.getConfiguration().getInt("matrix.lineNum", 0);
+            matrixData = new double[length][];
+            super.setup(context);
+        }
 
         public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
             String[] line = key.toString().split("\\t");
             String[] data = Arrays.copyOfRange(line, 1, line.length);
-            System.out.println(data);
             double[] d = Arrays.asList(data).stream().mapToDouble(Double::parseDouble).toArray();
 
             if(d.length == lineNum) {
@@ -86,21 +88,22 @@ public class FileCombiner {
                 index++;
                 if (index == length) {
                     sb.append("\r\n");
-                    tranversedData = new Array2DRowRealMatrix(matrixData).transpose().getData();
-                    MyArrayMatrix transformedMatrix = new MyArrayMatrix(tranversedData);
+                    MyArrayMatrix transformedMatrix = new MyArrayMatrix(new Array2DRowRealMatrix(matrixData).transpose().getData());
                     context.write(new Text(sb.toString() + transformedMatrix.toString()), new Text(""));
                 } else {
                     sb.append("\t");
                 }
             }else{
                 System.err.println(line[0]);
-                FileSystem.get(context.getConfiguration()).delete(new Path(input + line[0] + ".txt"),true);
+//                FileSystem.get(context.getConfiguration()).delete(new Path(input + line[0] + ".txt"),true);
             }
         }
     }
 
-    public static void combineFilesInPath(String input, String output) throws Exception{
+    public static void combineFilesInPath(String input, String output, int length) throws Exception{
         Configuration conf = new Configuration();
+        conf.setInt("matrix.length", length);
+        conf.setInt("matrix.lineNum", 756);
         Job job = Job.getInstance(conf, "FileCombiner");
         job.setJarByClass(FileCombiner.class);
         job.setOutputKeyClass(Text.class);
@@ -130,19 +133,19 @@ public class FileCombiner {
 //        output = "src/main/resources/combined/";
         PathFilter filter = file -> file.getName().endsWith(".txt");
         FileSystem fs = FileSystem.get(new Configuration());
-        status = fs.listStatus(new Path(input), filter);
-        length = status.length;
-        Arrays.asList(status).forEach(s -> {
-            if(s.getLen() == 0){
-                try {
-                    fs.delete(s.getPath(), true);
-                    length--;
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+        FileStatus[] status = fs.listStatus(new Path(input), filter);
+        int length = status.length;
+        LineNumberReader lnr = null;
+        for(FileStatus s : status){
+            lnr = new LineNumberReader(new InputStreamReader(fs.open(s.getPath())));
+            lnr.skip(Long.MAX_VALUE);
+            int num = lnr.getLineNumber();
+            if(s.getLen() == 0 || num != 756){
+                length--;
+                fs.delete(s.getPath(), true);
             }
-        });
-        matrixData = new double[length][];
-        combineFilesInPath(input, output);
+        }
+        lnr.close();
+        combineFilesInPath(input, output, length);
     }
 }

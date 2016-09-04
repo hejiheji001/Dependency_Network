@@ -216,8 +216,8 @@ public class GraphToGexf{
         // Edge Color
         Function edgeDegreeRanking = appearanceModel.getEdgeFunction(graph, AppearanceModel.GraphFunction.EDGE_WEIGHT, RankingElementColorTransformer.class);
         RankingElementColorTransformer edgeDegreeTransformer = edgeDegreeRanking.getTransformer();
-        edgeDegreeTransformer.setColors(new Color[]{new Color(0xD7191C), new Color(0x2C7BB6)});
-        edgeDegreeTransformer.setColorPositions(new float[]{0f, 1f});
+        edgeDegreeTransformer.setColors(new Color[]{new Color(0xFF1F22), new Color(0x2C7BB6), new Color(0x55FF00), new Color(0xFF00EA), new Color(0x00FFDF), new Color(0xFFE300)});
+        edgeDegreeTransformer.setColorPositions(new float[]{0f, 0.2f, 0.4f, 0.6f, 0.8f, 1f});
         appearanceController.transform(edgeDegreeRanking);
 
         GraphDistance distance = new GraphDistance();
@@ -230,14 +230,14 @@ public class GraphToGexf{
         Function centralityRanking = appearanceModel.getNodeFunction(graph, centralityColumn, RankingNodeSizeTransformer.class);
         RankingNodeSizeTransformer centralityTransformer = centralityRanking.getTransformer();
         centralityTransformer.setMinSize(5);
-        centralityTransformer.setMaxSize(20);
+        centralityTransformer.setMaxSize(50);
         appearanceController.transform(centralityRanking);
 
         // Label Size
         Function centralityRanking2 = appearanceModel.getNodeFunction(graph, centralityColumn, RankingLabelSizeTransformer.class);
         RankingLabelSizeTransformer labelSizeTransformer = centralityRanking2.getTransformer();
         labelSizeTransformer.setMinSize(10);
-        labelSizeTransformer.setMaxSize(30);
+        labelSizeTransformer.setMaxSize(40);
         appearanceController.transform(centralityRanking2);
 
         al.execute();

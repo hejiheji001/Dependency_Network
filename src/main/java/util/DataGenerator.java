@@ -1,5 +1,6 @@
 package util;
 
+import Entities.Entity_PartialCorrelation;
 import Entities.Entity_Test;
 import org.apache.commons.math3.stat.correlation.PearsonsCorrelation;
 import org.hibernate.HibernateException;
@@ -24,11 +25,22 @@ public class DataGenerator {
         String Y;
         String Z;
         String[] s = StockList.someStocks;
+//        String[] s = StockList.someStocks2;/
+//        String[] s = StockList.someStocks3;/
+//        String[] s = StockList.someStocks4;/
+//        String[] s = StockList.someStocks5;/
+//        String[] s = StockList.someStocks6;/
+//        String[] s = StockList.someStocks7;/
+//        String[] s = StockList.someStocks8;/
+//        String[] s = StockList.someStocks9;/
+//        String[] s = StockList.someStocks10;/
         int index = 0;
         double X_Y = 0;
         double X_Z = 0;
         double Y_Z = 0;
         double P = 0;
+
+        List<Entity_PartialCorrelation> l = new ArrayList<>();
 
         for(int i = 0; i < s.length; i++){
             X = s[i];
@@ -45,14 +57,50 @@ public class DataGenerator {
                             P = PartialCorrelation(X_Y, X_Z, Y_Z);
                             System.out.print(index + "# P(" + X + ", " + Y + " : " + Z + ") = ");
                             System.out.println(P);
-                            saveToDB(X, Y, Z, P);
+//                            saveToDB(X, Y, Z, P);
+                            Entity_PartialCorrelation ep = new Entity_PartialCorrelation();
+                            ep.setX(X);
+                            ep.setY(Y);
+                            ep.setZ(Z);
+                            ep.setXyz(P);
+                            l.add(ep);
+
+                            if(l.size() == 1000){
+                                saveToDB(l);
+                                l = new ArrayList<>();
+                            }
                         }
                     }
                 }
             }
         }
+
         long end = new Date().getTime();
         System.out.println("Uses " + (end - start) + " milisecs");
+    }
+
+    private static void saveToDB(List<Entity_PartialCorrelation> l) {
+        Session session = HibernateUtil.getSession();
+        Transaction tx = session.beginTransaction();
+        try {
+            int batchSize = 50;
+            final int[] i = {0};
+            l.forEach(e -> {
+                session.saveOrUpdate(e);
+                i[0]++;
+                if (i[0] % batchSize == 0) {
+                    session.flush();
+                    session.clear();
+                }
+            });
+            tx.commit();
+            session.close();
+        } catch (RuntimeException e) {
+            if (tx != null) {
+                tx.rollback();
+            }
+            e.printStackTrace();
+        }
     }
 
     private static void saveToDB(String x, String y, String z, double p) {

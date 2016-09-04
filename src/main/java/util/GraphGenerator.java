@@ -18,7 +18,7 @@ import static util.PlanarTesting.planarityTester.planarityTesting;
  */
 public class GraphGenerator {
 
-    static String[] s = StockList.someStocks;
+    static String[] s = StockList.stocks;
 
     public static void main(String[] args) {
         Date d = new Date();
@@ -53,7 +53,7 @@ public class GraphGenerator {
         Transaction tx = null;
         try {
             tx = session.beginTransaction();
-            List ds = session.createQuery("select avg(xyz) as average, x, z from Entity_Test where x in (:STKs) and z in (:STKs) group by x, z order by average desc").setParameterList("STKs", stks).list();
+            List ds = session.createQuery("select avg(xyz) as average, x, z from Entity_PartialCorrelation where x in (:STKs) and z in (:STKs) group by x, z order by average desc").setParameterList("STKs", stks).list();
             Map<PCPG, Double> pcpgs = new TreeMap<>();
             ds.forEach(i -> {
                 Object[] t = (Object[]) i;
@@ -69,6 +69,8 @@ public class GraphGenerator {
 
             NavigableMap prePCPG = ((TreeMap)pcpgs).descendingMap();
             List<String[]> finalPCPG = MapNodeToIndex(stks, prePCPG);
+
+            System.out.println(finalPCPG.size());
 
             for(int i = 0; i < finalPCPG.size(); i++){
                 Entity_Pcpg p = new Entity_Pcpg();

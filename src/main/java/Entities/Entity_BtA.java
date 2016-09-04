@@ -6,7 +6,7 @@ import javax.persistence.*;
  * Created by FireAwayH on 07/07/2016.
  */
 @Entity
-@Table(name = "`bt.a`", catalog = "FTSE350")
+@Table(name = "`bt.a`")
 public class Entity_BtA {
     private String date;
     private String open;
