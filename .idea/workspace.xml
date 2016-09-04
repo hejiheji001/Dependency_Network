@@ -10,38 +10,298 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="3b8e086c-1249-426a-8eef-13dff487c21f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/input/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/lib/guava-11.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/lib/httpclient-4.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/lib/jackson-jaxrs-1.8.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/lib/jackson-xc-1.8.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/lib/postgresql-9.1-901-1.jdbc4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/lib/slf4j-api-1.7.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/lib/slf4j-log4j12-1.7.10.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/Entities/Entity_BtA.class" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/Entities/Entity_BtA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/DataGenerator.class" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/DataGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/GraphGenerator.class" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/GraphGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/StockList.class" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/StockList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DependencyNetwork-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/DependencyNetwork-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/Entity_BtA.class" afterPath="$PROJECT_DIR$/target/classes/Entities/Entity_BtA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/DataGenerator.class" afterPath="$PROJECT_DIR$/target/classes/util/DataGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/GraphGenerator.class" afterPath="$PROJECT_DIR$/target/classes/util/GraphGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/StockList.class" afterPath="$PROJECT_DIR$/target/classes/util/StockList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/original-DependencyNetwork-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/original-DependencyNetwork-1.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/3in.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/aal.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/abf.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/aca.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/adm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/adn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/agk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/aht.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/amfw.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/anto.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/arm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ashm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/asl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/atk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/atst.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/av.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/avv.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/azn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ba.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bab.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bag.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/barc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bats.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bba.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bby.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bdev.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bgeo.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bhmg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bkg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/blnd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/blt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bnkr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bnzl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bok.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/boy.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/brby.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/brsn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/brw.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/btem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/btg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bvic.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bvs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bwng.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bwy.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/byg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/capc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cbg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ccc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ccl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cey.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cine.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ckn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cldn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cli.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/clln.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cna.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cne.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cob.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cpg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cpi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/crda.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/crh.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cty.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cwk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dcg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/deb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dge.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/djan.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dlg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dln.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dnlm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dom.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dph.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dplm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/drty.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/drx.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dty.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ecm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/edin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/elm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/elta.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/emg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/erm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/esnt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/eto.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/evr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/expn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ezj.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fcpt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fcss.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fdsa.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fev.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fgp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fgt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/frcl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fres.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gcp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gfrd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gfs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gkn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/glen.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gnk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gns.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gpor.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/grg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gri.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gsk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gss.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/has.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hfd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hgg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hicl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hik.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hils.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hlma.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hmso.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hoc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/home.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hsba.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hstn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hsv.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hsx.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hwdn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/iag.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/iap.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/icp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/igg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ihg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/iii.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/imb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/imi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/inch.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/inpp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/intu.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/invp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ipf.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ipo.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/isat.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/itrk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/itv.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jam.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jdw.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jlif.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jlt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jmat.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jmg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jup.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/kaz.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/kgf.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/kie.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/klr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lad.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/land.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lgen.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lloy.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lmp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lrd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lse.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mab.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mars.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mcro.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mgam.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mggt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mks.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mlc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mndi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mnks.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mony.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mrc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mrw.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mslh.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mto.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/myi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ncc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/nex.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ng.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/nmc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/nxt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ocdo.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/oml.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pag.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/page.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pay.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pays.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pct.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pdg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pfc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pfg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/phnx.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pli.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pnl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pnn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/poly.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pru.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/psn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pson.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pzc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/qq.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rat.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rbs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rcp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rdi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rdsa.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rdsb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rdw.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rel.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rgu.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rio.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rmv.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rnk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ror.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rpc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rrs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rsa.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rsw.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rtn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rto.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sab.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/safe.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sbry.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/scin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sdr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sgc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sge.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sgp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sgro.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/shb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/shi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/shp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sky.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smds.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smwh.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sn.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/snr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/spd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/spx.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/srp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sse.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/stan.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/stj.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/svi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/svs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/svt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sxs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/synt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/talk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tate.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tcg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ted.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tem.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tep.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tlpr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tlw.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tmpl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tpk.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tsco.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tw.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ubm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/udg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ukcm.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ule.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ulvr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/utg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/uu.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/vct.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/vec.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ved.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/vod.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/vsvs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/weir.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wg.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wkp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wmh.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wos.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wpp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wtan.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wtb.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wwh.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entities/Entity_BtA.java" afterPath="$PROJECT_DIR$/src/main/java/Entities/Entity_BtA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/DataGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/util/DataGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java" afterPath="$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java" afterPath="$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePartialCorrelation.java" afterPath="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePartialCorrelation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/StockList.java" afterPath="$PROJECT_DIR$/src/main/java/util/StockList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/util.js" afterPath="$PROJECT_DIR$/web/js/util.js" />
     </list>
     <ignored path="Dependency_Network.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,8 +363,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.335958">
-              <caret line="428" column="21" selection-start-line="428" selection-start-column="21" selection-end-line="428" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.86351705">
+              <caret line="416" column="0" selection-start-line="410" selection-start-column="4" selection-end-line="416" selection-end-column="0" />
               <folding>
                 <marker date="1472538764000" expanded="true" signature="6022:6510" placeholder="..." />
               </folding>
@@ -117,7 +377,37 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#3531#3532#0" expanded="false" />
+                <element signature="e#3560#3561#0" expanded="false" />
+                <element signature="e#3604#3605#0" expanded="false" />
+                <element signature="e#3640#3641#0" expanded="false" />
+                <element signature="e#3671#3672#0" expanded="false" />
+                <element signature="e#3698#3699#0" expanded="false" />
+                <element signature="e#3738#3739#0" expanded="false" />
+                <element signature="e#3770#3771#0" expanded="false" />
+                <element signature="e#3798#3799#0" expanded="false" />
+                <element signature="e#3825#3826#0" expanded="false" />
+                <element signature="e#3862#3863#0" expanded="false" />
+                <element signature="e#3894#3895#0" expanded="false" />
+                <element signature="e#3929#3930#0" expanded="false" />
+                <element signature="e#3960#3961#0" expanded="false" />
+                <element signature="e#4008#4009#0" expanded="false" />
+                <element signature="e#4048#4049#0" expanded="false" />
+                <element signature="e#4083#4084#0" expanded="false" />
+                <element signature="e#4114#4115#0" expanded="false" />
+                <element signature="e#4162#4163#0" expanded="false" />
+                <element signature="e#4202#4203#0" expanded="false" />
+                <element signature="e#4241#4242#0" expanded="false" />
+                <element signature="e#4273#4274#0" expanded="false" />
+                <element signature="e#4326#4327#0" expanded="false" />
+                <element signature="e#4368#4369#0" expanded="false" />
+                <element signature="e#4563#4564#0" expanded="false" />
+                <element signature="e#4607#4608#0" expanded="false" />
+                <element signature="e#5191#5192#0" expanded="false" />
+                <element signature="e#5235#5236#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +417,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1096,7 +1388,7 @@
       <workItem from="1471286250347" duration="45779000" />
       <workItem from="1472391412166" duration="1418000" />
       <workItem from="1472397434720" duration="48478000" />
-      <workItem from="1472980380516" duration="484000" />
+      <workItem from="1472980380516" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Version">
       <created>1468578422060</created>
@@ -1170,11 +1462,17 @@
       <option name="project" value="LOCAL" />
       <updated>1472461505252</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Final">
+      <created>1472980937475</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1472980937475</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260503000" />
+    <option name="totallyTimeSpent" value="261350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1191,17 +1489,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.5639881" sideWeight="0.22734138" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08184524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4434524" sideWeight="0.30664653" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18353474" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35565478" sideWeight="0.6170695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35565478" sideWeight="0.6170695" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14350453" sideWeight="0.29847908" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.69627506" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.69627506" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15861027" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2265861" sideWeight="0.3037249" order="2" side_tool="true" content_ui="tabs" />
@@ -1215,7 +1514,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38839287" sideWeight="0.44033232" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.5639881" sideWeight="0.22734138" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4434524" sideWeight="0.6933535" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1568,22 +1866,22 @@
         <state vertical-scroll-proportion="0.19124797">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#683#684#0" expanded="false" />
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#753#754#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#821#822#0" expanded="false" />
+            <element signature="e#844#845#0" expanded="false" />
+            <element signature="e#859#860#0" expanded="false" />
+            <element signature="e#888#889#0" expanded="false" />
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1755#1756#0" expanded="false" />
+            <element signature="e#1852#1853#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1662,7 +1960,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1740,8 +2038,8 @@
         <state vertical-scroll-proportion="0.2542373">
           <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1750,7 +2048,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3531#3532#0" expanded="false" />
+            <element signature="e#3560#3561#0" expanded="false" />
+            <element signature="e#3604#3605#0" expanded="false" />
+            <element signature="e#3640#3641#0" expanded="false" />
+            <element signature="e#3671#3672#0" expanded="false" />
+            <element signature="e#3698#3699#0" expanded="false" />
+            <element signature="e#3738#3739#0" expanded="false" />
+            <element signature="e#3770#3771#0" expanded="false" />
+            <element signature="e#3798#3799#0" expanded="false" />
+            <element signature="e#3825#3826#0" expanded="false" />
+            <element signature="e#3862#3863#0" expanded="false" />
+            <element signature="e#3894#3895#0" expanded="false" />
+            <element signature="e#3929#3930#0" expanded="false" />
+            <element signature="e#3960#3961#0" expanded="false" />
+            <element signature="e#4008#4009#0" expanded="false" />
+            <element signature="e#4048#4049#0" expanded="false" />
+            <element signature="e#4083#4084#0" expanded="false" />
+            <element signature="e#4114#4115#0" expanded="false" />
+            <element signature="e#4162#4163#0" expanded="false" />
+            <element signature="e#4202#4203#0" expanded="false" />
+            <element signature="e#4241#4242#0" expanded="false" />
+            <element signature="e#4273#4274#0" expanded="false" />
+            <element signature="e#4326#4327#0" expanded="false" />
+            <element signature="e#4368#4369#0" expanded="false" />
+            <element signature="e#4563#4564#0" expanded="false" />
+            <element signature="e#4607#4608#0" expanded="false" />
+            <element signature="e#5191#5192#0" expanded="false" />
+            <element signature="e#5235#5236#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1758,7 +2086,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1774,8 +2104,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.335958">
-          <caret line="428" column="21" selection-start-line="428" selection-start-column="21" selection-end-line="428" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.86351705">
+          <caret line="416" column="0" selection-start-line="410" selection-start-column="4" selection-end-line="416" selection-end-column="0" />
           <folding>
             <marker date="1472538764000" expanded="true" signature="6022:6510" placeholder="..." />
           </folding>
