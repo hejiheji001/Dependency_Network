@@ -30,18 +30,12 @@ import java.util.List;
  */
 public class FileCombiner {
     public static class Map extends Mapper<LongWritable, Text, Text, Text> {
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         List<String> loadedFiles = new ArrayList<>();
 
         public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             FileSplit fileSplit = (FileSplit)context.getInputSplit();
             String filename = fileSplit.getPath().getName();
-//            FileSystem fs = FileSystem.get(context.getConfiguration());
-//            Path file = new Path(input + filename);
-//
-//            if(fs.getFileStatus(file).getLen() == 1){
-//                fs.delete(file, true);
-//            }else{
             String line = value.toString().split(",")[4];
             if(!loadedFiles.contains(filename)){
                 loadedFiles.add(filename);
@@ -52,7 +46,6 @@ public class FileCombiner {
                 line += "\t";
             }
             sb.append(line);
-//            }
         }
 
         @Override
@@ -128,9 +121,7 @@ public class FileCombiner {
         System.exit(0);
     }
 
-    private static void combine(String input, String output) throws Exception{
-//        input = "src/main/resources/input3/";
-//        output = "src/main/resources/combined/";
+    public static void combine(String input, String output) throws Exception{
         PathFilter filter = file -> file.getName().endsWith(".txt");
         FileSystem fs = FileSystem.get(new Configuration());
         FileStatus[] status = fs.listStatus(new Path(input), filter);

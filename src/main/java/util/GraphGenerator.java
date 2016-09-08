@@ -5,9 +5,8 @@ import org.apache.commons.lang.ArrayUtils;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import util.HibernateUtil;
-import util.PCPG;
-import util.StockList;
+import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.Restrictions;
 
 import java.util.*;
 
@@ -19,6 +18,8 @@ import static util.PlanarTesting.planarityTester.planarityTesting;
 public class GraphGenerator {
 
     static String[] s = StockList.stocks;
+//    static String[] s = new String[]{"3in", "aal", "abf", "aca", "adm", "adn", "agk", "aht", "amfw", "anto", "arm", "ashm", "asl", "atk", "atst", "av", "avv", "azn", "ba", "bab", "bag", "barc", "bats", "bba", "bby", "bdev", "bgeo", "bhmg", "bkg", "blnd", "blt", "bnkr", "bnzl", "bok", "boy", "bp", "brby", "brsn", "brw", "bt", "btem", "btg", "bvic", "bvs", "bwng", "bwy"};
+//    , "byg", "capc", "cbg", "ccc", "ccl", "cey", "cine", "ckn", "cldn", "cli", "clln", "cna", "cne", "cob", "cpg", "cpi", "crda", "crh", "cty", "cwk", "dc", "dcg", "deb", "dge", "djan", "dlg", "dln", "dnlm", "dom", "dph", "dplm", "drty", "drx", "dty", "ecm", "edin", "elm", "elta", "emg", "erm", "esnt", "eto", "evr", "expn", "ezj", "fcpt", "fcss", "fdsa", "fev", "fgp", "fgt", "frcl", "fres", "gcp"};
 
     public static void main(String[] args) {
         Date d = new Date();
@@ -35,8 +36,8 @@ public class GraphGenerator {
 //                Y = StockList.stocks[k];
 //                if(!X.equals(Y)){
 //                    ++index;
-//                    if(index > 0) {
-//                        System.out.print(index + " #" + "X = " + X + " Y = " + Y + " ");
+//                    if(index > 20421) { // 20421
+//                        System.out.println(index + " #" + "X = " + X + " Y = " + Y + " ");
 //                        PCTN_Extend(X, Y);
 //                    }
 //                }
@@ -44,7 +45,7 @@ public class GraphGenerator {
 //        }
 
         Date dd = new Date();
-//        System.out.print(dd.getTime() - d.getTime());
+        System.out.print(dd.getTime() - d.getTime());
         System.exit(0);
     }
 
@@ -54,6 +55,7 @@ public class GraphGenerator {
         try {
             tx = session.beginTransaction();
             List ds = session.createQuery("select avg(xyz) as average, x, z from Entity_PartialCorrelation where x in (:STKs) and z in (:STKs) group by x, z order by average desc").setParameterList("STKs", stks).list();
+//            List ds = session.createQuery("select avg(xyz) as average, x, z from Entity_PartialCorrelation group by x, z").list();
             Map<PCPG, Double> pcpgs = new TreeMap<>();
             ds.forEach(i -> {
                 Object[] t = (Object[]) i;
@@ -158,8 +160,14 @@ public class GraphGenerator {
 
             final List<String> finalStk = new ArrayList<>();
             rs.forEach(r -> {
-                Entity_Pctn pk = new Entity_Pctn();
+                Entity_PctnPK k = new Entity_PctnPK();
                 Object[] t = (Object[])r;
+
+                k.setSource(t[0].toString());
+                k.setTargetX(X);
+                k.setTargetY(Y);
+
+                Entity_Pctn pk = new Entity_Pctn();
                 pk.setSource(t[0].toString());
                 pk.setTargetX(X);
                 pk.setTargetY(Y);
@@ -167,6 +175,7 @@ public class GraphGenerator {
                 finalStk.add(X);
                 finalStk.add(Y);
                 finalStk.add(t[0].toString());
+//                session.load(Entity_PctnPK.class, );
                 session.saveOrUpdate(pk);
             });
 
@@ -183,7 +192,9 @@ public class GraphGenerator {
                 tx.rollback();
             }
             throw e;
-        } finally {
+        } catch (NullPointerException ee){
+            ee.printStackTrace();
+        } finally{
             session.close();
         }
     }

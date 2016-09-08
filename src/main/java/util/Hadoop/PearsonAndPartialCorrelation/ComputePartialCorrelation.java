@@ -63,15 +63,16 @@ public class ComputePartialCorrelation{
 
     public static void main(String[] args) throws Exception{
         long start = new Date().getTime();
-        compute(args[0], args[1]);
+        compute(args[0], args[1], "yes");
         long end = new Date().getTime();
         System.out.println("Uses " + (end - start) + " milisecs"); // 11406 + 12105
         System.exit(0);
     }
 
 
-    private static void compute(String input, String output) throws Exception{
+    public static void compute(String input, String output, String saveToDB) throws Exception{
         Configuration conf = new Configuration();
+        conf.set("saveToDB", saveToDB);
 
         FileSystem fs = FileSystem.get(conf);
         FileStatus[] ffs = fs.listStatus(new Path(input));
@@ -245,34 +246,37 @@ public class ComputePartialCorrelation{
 
         @Override
         protected void cleanup(Context context) throws IOException, InterruptedException {
-            Session session = HibernateUtil.getSession();
-            Transaction tx = session.beginTransaction();
-            try {
-                int batchSize = 50;
-                int i = 0;
+            String saveToDB = context.getConfiguration().get("saveToDB");
+            if(saveToDB.equals("yes")) {
+                Session session = HibernateUtil.getSession();
+                Transaction tx = session.beginTransaction();
+                try {
+                    int batchSize = 50;
+                    int i = 0;
 //                System.out.println(records.size());
-                for (String key : records.keySet()) {
-                    i++;
-                    Entity_Test ep = new Entity_Test();
-                    String[] XY = key.split(",");
-                    String[] YZ = XY[1].split(":");
-                    ep.setX(XY[0]);
-                    ep.setY(YZ[0]);
-                    ep.setZ(YZ[1]);
-                    ep.setXyz(records.get(key));
-                    session.saveOrUpdate(ep);
-                    if (i % batchSize == 0) {
-                        session.flush();
-                        session.clear();
+                    for (String key : records.keySet()) {
+                        i++;
+                        Entity_Test ep = new Entity_Test();
+                        String[] XY = key.split(",");
+                        String[] YZ = XY[1].split(":");
+                        ep.setX(XY[0]);
+                        ep.setY(YZ[0]);
+                        ep.setZ(YZ[1]);
+                        ep.setXyz(records.get(key));
+                        session.saveOrUpdate(ep);
+                        if (i % batchSize == 0) {
+                            session.flush();
+                            session.clear();
+                        }
                     }
+                    tx.commit();
+                    session.close();
+                } catch (RuntimeException e) {
+                    if (tx != null) {
+                        tx.rollback();
+                    }
+                    e.printStackTrace();
                 }
-                tx.commit();
-                session.close();
-            } catch (RuntimeException e) {
-                if (tx != null) {
-                    tx.rollback();
-                }
-                e.printStackTrace();
             }
             super.cleanup(context);
         }

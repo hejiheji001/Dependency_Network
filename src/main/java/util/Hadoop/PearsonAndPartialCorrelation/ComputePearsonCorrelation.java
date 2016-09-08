@@ -1,7 +1,7 @@
 package util.Hadoop.PearsonAndPartialCorrelation;
 
-import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -38,11 +38,11 @@ public class ComputePearsonCorrelation {
 	 *
 	 * Correlation Matrix is:
 	 *
-	 * 	|c1	c2	c3
-	 * 	--------------------
-	 *     c1|1.0	1.0	-1.0
-	 *     c2|1.0	1.0	-1.0
-	 *     c3|-1.0	-1.0	1.0
+	 *   |c1	c2	c3
+	 *   --------------------
+	 * c1|1.0	1.0	-1.0
+	 * c2|1.0	1.0	-1.0
+	 * c3|-1.0	-1.0	1.0
 	 *
 	 */
 
@@ -50,12 +50,13 @@ public class ComputePearsonCorrelation {
 
 	public static void main(String[] args) throws Exception{
 		long start = new Date().getTime();
-		compute("src/main/resources/combined/", "src/main/resources/pearson/");
+//		compute("src/main/resources/combined/", "src/main/resources/pearson/");
+		compute(args[0], args[1]);
 		long end = new Date().getTime();
 		System.out.println("Uses " + (end - start) + " milisecs");
 	}
 
-	private static void compute(String input, String output) throws Exception{
+	public static void compute(String input, String output) throws Exception{
 		Configuration conf = new Configuration();
 		Job job = Job.getInstance(conf, "Computing Pearson Correlation");
 

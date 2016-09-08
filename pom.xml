@@ -23,6 +23,17 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>Run</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
@@ -79,6 +90,12 @@
 								</filter>
 								<filter>
 									<artifact>org.hibernate.common:hibernate-commons-annotations</artifact>
+									<includes>
+										<include>**</include>
+									</includes>
+								</filter>
+								<filter>
+									<artifact>commons-logging:commons-logging</artifact>
 									<includes>
 										<include>**</include>
 									</includes>
@@ -464,6 +481,11 @@
 			<type>pom</type>
 		</dependency>
 
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-s3</artifactId>
+			<version>1.11.31</version>
+		</dependency>
 
 
 		<dependency>

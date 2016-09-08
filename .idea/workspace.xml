@@ -10,298 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="3b8e086c-1249-426a-8eef-13dff487c21f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/3in.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/aal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/abf.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/aca.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/adm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/adn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/agk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/aht.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/amfw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/anto.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/arm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ashm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/asl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/atk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/atst.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/av.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/avv.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/azn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ba.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bab.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bag.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/barc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bats.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bba.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bby.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bdev.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bgeo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bhmg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bkg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/blnd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/blt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bnkr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bnzl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bok.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/boy.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/brby.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/brsn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/brw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/btem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/btg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bvic.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bvs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bwng.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/bwy.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/byg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/capc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cbg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ccc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ccl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cey.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cine.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ckn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cldn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cli.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/clln.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cna.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cne.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cob.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cpg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cpi.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/crda.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/crh.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cty.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/cwk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dcg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/deb.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dge.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/djan.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dlg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dln.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dnlm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dom.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dph.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dplm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/drty.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/drx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/dty.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ecm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/edin.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/elm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/elta.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/emg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/erm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/esnt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/eto.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/evr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/expn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ezj.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fcpt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fcss.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fdsa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fev.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fgp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fgt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/frcl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/fres.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gcp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gfrd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gfs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gkn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/glen.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gnk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gns.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gpor.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/grg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gri.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gsk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/gss.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/has.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hfd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hgg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hicl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hik.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hils.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hlma.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hmso.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hoc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/home.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hsba.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hstn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hsv.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hsx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/hwdn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/iag.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/iap.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/icp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/igg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ihg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/iii.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/imb.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/imi.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/inch.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/inpp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/intu.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/invp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ipf.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ipo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/isat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/itrk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/itv.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jam.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jdw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jlif.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jlt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jmat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jmg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/jup.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/kaz.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/kgf.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/kie.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/klr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lad.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/land.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lgen.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lloy.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lmp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lrd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lre.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/lse.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mab.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mars.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mcro.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mgam.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mggt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mks.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mlc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mndi.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mnks.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mony.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mrc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mrw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mslh.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/mto.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/myi.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ncc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/nex.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ng.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/nmc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/nxt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ocdo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/oml.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pag.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/page.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pay.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pays.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pct.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pdg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pfc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pfg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/phnx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pli.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pnl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pnn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/poly.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pru.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/psn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pson.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/pzc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/qq.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rb.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rbs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rcp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rdi.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rdsa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rdsb.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rdw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rgu.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rio.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rmv.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rnk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ror.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rpc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rrs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rsa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rsw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rtn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/rto.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sab.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/safe.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sbry.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/scin.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sdr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sgc.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sge.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sgp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sgro.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/shb.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/shi.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/shp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sky.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smds.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smin.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/smwh.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/snr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/spd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/spx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/srp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sse.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/stan.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/stj.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/svi.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/svs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/svt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/sxs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/synt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/talk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tate.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tcg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ted.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tep.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tlpr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tlw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tmpl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tpk.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tsco.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/tw.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ubm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/udg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ukcm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ule.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ulvr.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/utg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/uu.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/vct.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/vec.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/ved.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/vod.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/vsvs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/weir.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wkp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wmh.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wpp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wtan.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wtb.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inputAll/wwh.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Run.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/OriginComputePearson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/main/MainServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/main/MainServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/DataGenerator.class" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/DataGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/GraphGenerator.class" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/WEB-INF/classes/util/GraphGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DependencyNetwork-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/DependencyNetwork-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/MainServlet.class" afterPath="$PROJECT_DIR$/target/classes/main/MainServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/DataGenerator.class" afterPath="$PROJECT_DIR$/target/classes/util/DataGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/GraphGenerator.class" afterPath="$PROJECT_DIR$/target/classes/util/GraphGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/original-DependencyNetwork-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/original-DependencyNetwork-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dependency_Network.iml" afterPath="$PROJECT_DIR$/Dependency_Network.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/Dependency_Network_war_exploded/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java" afterPath="$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java" afterPath="$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePartialCorrelation.java" afterPath="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePartialCorrelation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePearsonCorrelation.java" afterPath="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePearsonCorrelation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
     </list>
     <ignored path="Dependency_Network.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -348,26 +79,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ComputePartialCorrelation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePartialCorrelation.java">
+      <file leaf-file-name="ComputePearsonCorrelation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePearsonCorrelation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="480" column="28" selection-start-line="480" selection-start-column="28" selection-end-line="480" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1473093977000" expanded="true" signature="6452:6940" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="FileCombiner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86351705">
-              <caret line="416" column="0" selection-start-line="410" selection-start-column="4" selection-end-line="416" selection-end-column="0" />
-              <folding>
-                <marker date="1472538764000" expanded="true" signature="6022:6510" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -376,50 +115,81 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+              <caret line="233" column="21" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.372549">
+              <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3531#3532#0" expanded="false" />
-                <element signature="e#3560#3561#0" expanded="false" />
-                <element signature="e#3604#3605#0" expanded="false" />
-                <element signature="e#3640#3641#0" expanded="false" />
-                <element signature="e#3671#3672#0" expanded="false" />
-                <element signature="e#3698#3699#0" expanded="false" />
-                <element signature="e#3738#3739#0" expanded="false" />
-                <element signature="e#3770#3771#0" expanded="false" />
-                <element signature="e#3798#3799#0" expanded="false" />
-                <element signature="e#3825#3826#0" expanded="false" />
-                <element signature="e#3862#3863#0" expanded="false" />
-                <element signature="e#3894#3895#0" expanded="false" />
-                <element signature="e#3929#3930#0" expanded="false" />
-                <element signature="e#3960#3961#0" expanded="false" />
-                <element signature="e#4008#4009#0" expanded="false" />
-                <element signature="e#4048#4049#0" expanded="false" />
-                <element signature="e#4083#4084#0" expanded="false" />
-                <element signature="e#4114#4115#0" expanded="false" />
-                <element signature="e#4162#4163#0" expanded="false" />
-                <element signature="e#4202#4203#0" expanded="false" />
-                <element signature="e#4241#4242#0" expanded="false" />
-                <element signature="e#4273#4274#0" expanded="false" />
-                <element signature="e#4326#4327#0" expanded="false" />
-                <element signature="e#4368#4369#0" expanded="false" />
-                <element signature="e#4563#4564#0" expanded="false" />
-                <element signature="e#4607#4608#0" expanded="false" />
-                <element signature="e#5191#5192#0" expanded="false" />
-                <element signature="e#5235#5236#0" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/GraphGenerator.java">
+      <file leaf-file-name="sigma.main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/sigma.main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#1631#1826#0" expanded="false" />
+                <element signature="e#1864#2017#0" expanded="false" />
+                <element signature="e#2040#2295#0" expanded="false" />
+                <element signature="e#2340#3641#0" expanded="false" />
+                <element signature="e#3687#4093#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/GraphGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainServletGephi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/MainServletGephi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="23" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity_Pctn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Entity_Pctn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="planarityTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/PlanarTesting/planarityTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -452,8 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/Planar_Testing/planarityTester.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entities/Entity_Pctn.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Entity_Pcpgtable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Entity_PcpgtablePK.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Entity_Pcpg.java" />
@@ -477,7 +245,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/sigma.js.test.html" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/main/MainServletGephi.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/Pearson/ComputePearsonCorrelation.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/MyArrayMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/DoubleArrayWritable.java" />
@@ -487,22 +254,25 @@
         <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/PearsonWritable.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/MyPartialCorrelationRecords.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/VariableValueWritable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePearsonCorrelation.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/java/test.java" />
-        <option value="$PROJECT_DIR$/web/js/sigma.main.js" />
         <option value="$PROJECT_DIR$/dependency-reduced-pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/VariablePairWritable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Entity_BtA.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/StockList.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/DataGenerator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/js/util.js" />
-        <option value="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePartialCorrelation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Run.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/OriginComputePearson.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/js/sigma.main.js" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePearsonCorrelation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/MainServletGephi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" />
       </list>
     </option>
   </component>
@@ -642,7 +412,6 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -693,8 +462,209 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hadoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hadoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PearsonAndPartialCorrelation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gephi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependency_Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -754,26 +724,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.GraphGenerator">
-    <configuration default="false" name="ComputePearsonCorrelation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="util.Hadoop.PearsonAndPartialCorrelation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="util.Hadoop.PearsonAndPartialCorrelation.ComputePearsonCorrelation" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Dependency_Network" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="ComputePartialCorrelation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -802,9 +752,9 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="util.DataGenerator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -842,9 +792,24 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="util.GraphGenerator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Dependency_Network" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Run" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="combine $USER_HOME$/Github/resources/some $USER_HOME$/Github/resources/combined" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1337,19 +1302,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Dependency_Network" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ComputePearsonCorrelation" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ComputePartialCorrelation" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DataGenerator" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FileCombiner" />
-      <item index="5" class="java.lang.String" itemvalue="Application.GraphGenerator" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ComputePartialCorrelation" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DataGenerator" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FileCombiner" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GraphGenerator" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Run" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.GraphGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ComputePartialCorrelation" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FileCombiner" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DataGenerator" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ComputePearsonCorrelation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Run" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ComputePartialCorrelation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FileCombiner" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DataGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -1388,7 +1353,10 @@
       <workItem from="1471286250347" duration="45779000" />
       <workItem from="1472391412166" duration="1418000" />
       <workItem from="1472397434720" duration="48478000" />
-      <workItem from="1472980380516" duration="1331000" />
+      <workItem from="1472980380516" duration="22145000" />
+      <workItem from="1473259025651" duration="1403000" />
+      <workItem from="1473264411746" duration="13000" />
+      <workItem from="1473265219848" duration="12940000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Version">
       <created>1468578422060</created>
@@ -1468,11 +1436,17 @@
       <option name="project" value="LOCAL" />
       <updated>1472980937475</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Final">
+      <created>1473030114696</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1473030114696</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261350000" />
+    <option name="totallyTimeSpent" value="296520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1496,11 +1470,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18353474" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35565478" sideWeight="0.6170695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35565478" sideWeight="0.6170695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42113096" sideWeight="0.6933535" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14350453" sideWeight="0.29847908" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.69627506" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1925982" sideWeight="0.69627506" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15861027" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2265861" sideWeight="0.3037249" order="2" side_tool="true" content_ui="tabs" />
@@ -1508,14 +1483,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48511904" sideWeight="0.44033232" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38839287" sideWeight="0.44033232" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4434524" sideWeight="0.6933535" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1610,49 +1584,49 @@
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/util/PlanarTesting/planarityTester.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java</url>
-          <line>89</line>
+          <line>82</line>
           <properties />
           <option name="timeStamp" value="285" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java</url>
-          <line>148</line>
+          <line>139</line>
           <properties />
           <option name="timeStamp" value="297" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java</url>
-          <line>144</line>
+          <line>135</line>
           <properties />
           <option name="timeStamp" value="298" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/util/GraphGenerator.java</url>
-          <line>14</line>
+          <line>13</line>
           <properties />
           <option name="timeStamp" value="305" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePartialCorrelation.java</url>
-          <line>207</line>
+          <line>208</line>
           <properties />
           <option name="timeStamp" value="306" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/util/GraphGenerator.java</url>
-          <line>19</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="310" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/GraphGenerator.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="313" />
+      <option name="time" value="319" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1661,42 +1635,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapred/ReduceTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="628" column="0" selection-start-line="628" selection-start-column="0" selection-end-line="628" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.2/hadoop-mapreduce-client-common-2.7.2-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar!/org/apache/commons/math3/stat/regression/SimpleRegression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.755102">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar!/org/apache/commons/math3/stat/correlation/PearsonsCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.707483">
-          <caret line="283" column="32" selection-start-line="283" selection-start-column="32" selection-end-line="283" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/DoubleWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/io/WritableComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1722,7 +1660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8457143">
           <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1740,20 +1677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.2.Final.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35913312">
-          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/PearsonWritable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4255874">
           <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1761,13 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53002614">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePearsonCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="49" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1783,16 +1703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33236995">
           <caret line="2535" column="34" selection-start-line="2535" selection-start-column="34" selection-end-line="2535" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/MainServletGephi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1836,14 +1746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6840731">
           <caret line="153" column="45" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67391306">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1893,19 +1795,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19720496">
-          <caret line="1069" column="29" selection-start-line="1069" selection-start-column="29" selection-end-line="1069" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/conf/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33229813">
           <caret line="1249" column="13" selection-start-line="1249" selection-start-column="13" selection-end-line="1249" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,15 +1806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23291926">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67391306">
-          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1929,7 +1813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58074534">
           <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1959,9 +1842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1969,7 +1849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1977,7 +1856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30279502">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2015,77 +1893,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1472557180000" expanded="true" signature="186:248" placeholder="..." />
-            <marker date="1472557180000" expanded="true" signature="186:329" placeholder="..." />
-            <marker date="1472557180000" expanded="true" signature="186:501" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/sigma.main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9479768">
-          <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
-          <folding>
-            <element signature="e#2040#2295#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2542373">
-          <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/OriginComputePearson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#3531#3532#0" expanded="false" />
-            <element signature="e#3560#3561#0" expanded="false" />
-            <element signature="e#3604#3605#0" expanded="false" />
-            <element signature="e#3640#3641#0" expanded="false" />
-            <element signature="e#3671#3672#0" expanded="false" />
-            <element signature="e#3698#3699#0" expanded="false" />
-            <element signature="e#3738#3739#0" expanded="false" />
-            <element signature="e#3770#3771#0" expanded="false" />
-            <element signature="e#3798#3799#0" expanded="false" />
-            <element signature="e#3825#3826#0" expanded="false" />
-            <element signature="e#3862#3863#0" expanded="false" />
-            <element signature="e#3894#3895#0" expanded="false" />
-            <element signature="e#3929#3930#0" expanded="false" />
-            <element signature="e#3960#3961#0" expanded="false" />
-            <element signature="e#4008#4009#0" expanded="false" />
-            <element signature="e#4048#4049#0" expanded="false" />
-            <element signature="e#4083#4084#0" expanded="false" />
-            <element signature="e#4114#4115#0" expanded="false" />
-            <element signature="e#4162#4163#0" expanded="false" />
-            <element signature="e#4202#4203#0" expanded="false" />
-            <element signature="e#4241#4242#0" expanded="false" />
-            <element signature="e#4273#4274#0" expanded="false" />
-            <element signature="e#4326#4327#0" expanded="false" />
-            <element signature="e#4368#4369#0" expanded="false" />
-            <element signature="e#4563#4564#0" expanded="false" />
-            <element signature="e#4607#4608#0" expanded="false" />
-            <element signature="e#5191#5192#0" expanded="false" />
-            <element signature="e#5235#5236#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/GraphGenerator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Job.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <caret line="951" column="28" selection-start-line="951" selection-start-column="28" selection-end-line="951" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#13995#13996#0" expanded="false" />
+            <element signature="e#14019#14020#0" expanded="false" />
+            <element signature="e#14115#14116#0" expanded="false" />
+            <element signature="e#14147#14148#0" expanded="false" />
+            <element signature="e#40763#40764#0" expanded="false" />
+            <element signature="e#40795#40796#0" expanded="false" />
+            <element signature="e#48473#48474#0" expanded="false" />
+            <element signature="e#48503#48504#0" expanded="false" />
+            <element signature="e#48692#48693#0" expanded="false" />
+            <element signature="e#48736#48737#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -2095,20 +1951,119 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePartialCorrelation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86351705">
-          <caret line="416" column="0" selection-start-line="410" selection-start-column="4" selection-end-line="416" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="480" column="28" selection-start-line="480" selection-start-column="28" selection-end-line="480" selection-end-column="28" />
           <folding>
-            <marker date="1472538764000" expanded="true" signature="6022:6510" placeholder="..." />
+            <marker date="1473093977000" expanded="true" signature="6452:6940" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-4.2.2.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34683955">
+          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Entity_PctnPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23291926">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Entity_Pctn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/PlanarTesting/planarityTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.372549">
+          <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/sigma.main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#1631#1826#0" expanded="false" />
+            <element signature="e#1864#2017#0" expanded="false" />
+            <element signature="e#2040#2295#0" expanded="false" />
+            <element signature="e#2340#3641#0" expanded="false" />
+            <element signature="e#3687#4093#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/FileCombiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Hadoop/PearsonAndPartialCorrelation/ComputePearsonCorrelation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/MainServletGephi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Gephi/GraphToGexf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="233" column="21" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/GraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2119,10 +2074,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="library" />
-              <type id="jpa-descriptors" />
               <type id="artifact" />
               <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
           <last-edited>Dependency_Network:jar</last-edited>
@@ -2150,7 +2105,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javafx-mx</last-edited>
+          <last-edited>hadoop-2.7.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2178,7 +2133,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.23360656" />
+                <option value="0.15266393" />
               </list>
             </option>
           </splitter-proportions>
